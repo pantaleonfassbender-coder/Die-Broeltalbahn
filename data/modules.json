@@ -1,0 +1,56 @@
+{
+ "shipped": [],
+ "planned": [
+  {
+   "id": "erz",
+   "side": "gruben",
+   "kurz": "Das Erz, 1853–1862",
+   "warum": "Die Gruben um Ruppichteroth, die Hütten an Rhein und Sieg, die Gesellschaft Gustorff & Co. von 1860 und Emil Langen von der Friedrich-Wilhelms-Hütte: wer die Bahn wollte und wofür.",
+   "quelle": "Anzeiger des Siegkreises (1855–1862) und Siegburger Kreisblatt (zeitpunkt.nrw, ULB Bonn); Zeitung des Vereins Deutscher Eisenbahnverwaltungen 5 (1865)."
+  },
+  {
+   "id": "dampf",
+   "side": "gesellschaft",
+   "kurz": "Pferd und Dampf, 1862–1870",
+   "warum": "Die Pferdebahn von Hennef nach Ruppichteroth 1862, der Dampfbetrieb ab 1863, die Aktiengesellschaft von 1869 und die Verlängerung nach Waldbröl 1870 mit einer Beihilfe des Staates.",
+   "quelle": "Siegburger Kreisblatt 1863–1865 (zeitpunkt.nrw); Zeitung des Vereins Deutscher Eisenbahnverwaltungen 5 (1865) und 10 (1870) (Bayerische Staatsbibliothek)."
+  },
+  {
+   "id": "krise",
+   "side": "tal",
+   "kurz": "Nach dem Erz, 1870–1890",
+   "warum": "Personenverkehr ab 1872, das Ende des Bergbaus um 1875, eine Bahn ohne ihre Fracht, und 1885 die Banken. Die dünnste Zeit der Quellen; der Apparat sagt, wo sie schweigen.",
+   "quelle": "Zeitungen und Fachzeitschriften der Jahre 1870–1890 (Sichtung offen); Reichsanzeiger."
+  },
+  {
+   "id": "ausbau",
+   "side": "gesellschaft",
+   "kurz": "Der Ausbau, 1891–1903",
+   "warum": "Hennef–Beuel 1891, Asbach 1892, Siegburg 1899, die Heisterbacher Talbahn 1903: aus der Erzbahn wird ein Netz von 87 Kilometern, und Basalt aus den Steinbrüchen ersetzt das Erz.",
+   "quelle": "Hennefer Zeitung (zeitpunkt.nrw); Zeitschrift für Kleinbahnen (Internet Archive, Wikisource-Übersicht); Deutscher Reichsanzeiger."
+  },
+  {
+   "id": "sommerfrische",
+   "side": "nachwelt",
+   "kurz": "Kleinbahn und Sommerfrische, 1903–1914",
+   "warum": "Fahrpläne, Ausflügler, Bilanzen, Statistik: die Bahn im Alltag des Tals und im Baedeker, mit einem Ausblick auf die Rhein-Sieg-Eisenbahn und die Stilllegung bis 1967.",
+   "quelle": "K. Baedeker, Die Rheinlande (Leipzig 1905) (Internet Archive); Statistik der im Betriebe befindlichen Eisenbahnen Deutschlands; Deutscher Reichsanzeiger 1912."
+  }
+ ],
+ "missing": [
+  {
+   "id": "archiv",
+   "side": "gesellschaft",
+   "kurz": "Die Akten der Gesellschaft (Stadtarchiv Sankt Augustin)",
+   "warum": "Über 2 000 Blatt Pläne, Zeichnungen und Betriebsakten der Bahn von 1860 bis 1970, Eigentum der Ortsgemeinde Asbach, digital im Stadtarchiv Sankt Augustin. Die Stücke sind unveröffentlicht und tragen keine Lizenzangabe; der Apparat zeigt sie nur, wenn das Archiv zustimmt, und nur Stücke, die alt genug sind.",
+   "quelle": "Stadtarchiv Sankt Augustin, SN 175 und SN 176 (Rhein-Sieg-Eisenbahn digital; Archivportal-D)."
+  },
+  {
+   "id": "literatur",
+   "side": "nachwelt",
+   "kurz": "Die neuere Literatur zur Bahn",
+   "warum": "Die Darstellungen von 1988 und 2017 sind die gründlichsten Geschichten der Bahn, aber urheberrechtlich geschützt. Der Apparat nennt sie, wo er ihnen Daten entnimmt, und druckt nichts daraus ab.",
+   "quelle": "Becker (1988); Clößner/Gussmann (2017)."
+  }
+ ]
+}

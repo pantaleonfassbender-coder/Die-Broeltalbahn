@@ -1,0 +1,89 @@
+{
+ "lede": "Von der ersten Grube bis zum Ersten Weltkrieg, mit einem Ausblick bis zur Stilllegung. Wo noch kein Text abgedruckt ist, folgen die Stationen der neueren Literatur und sagen es; wo die Angaben sich widersprechen, stehen beide.",
+ "stations": [
+  {
+   "d": "1853",
+   "side": "gruben",
+   "titel": "Der Große Sperber",
+   "text": "Die Grube „Großer Sperber“ bei Ruppichteroth wird verliehen, ein Tagebau auf Eisenerz; weitere Gruben liegen bei Schönenberg und Hänscheid. (Nach der neueren Literatur; Modul geplant.)"
+  },
+  {
+   "d": "2. Juni oder 2. Juli 1860",
+   "side": "gesellschaft",
+   "titel": "Gustorff & Co.",
+   "text": "Die Actien-Commandit-Gesellschaft Friedlieb Gustorff & Co. wird gegründet, mit Emil Langen von der Friedrich-Wilhelms-Hütte in Troisdorf. Das Datum ist in den Darstellungen verschieden angegeben. (Nach der neueren Literatur; Modul geplant.)"
+  },
+  {
+   "d": "27. Mai 1862",
+   "side": "gesellschaft",
+   "titel": "Die Pferdebahn",
+   "text": "Von Hennef nach Ruppichteroth fährt eine Pferdebahn auf 785 Millimeter Spur, für das Erz talabwärts. (Nach der neueren Literatur; Modul geplant.)"
+  },
+  {
+   "d": "April 1863",
+   "side": "gesellschaft",
+   "titel": "Dampf",
+   "text": "Die erste Dampflokomotive fährt im Bröltal; genannt werden der 5. April (Genehmigung) und der 25. April. (Nach der neueren Literatur; Modul geplant.)"
+  },
+  {
+   "d": "3. Februar 1869",
+   "side": "gesellschaft",
+   "titel": "Die Aktiengesellschaft",
+   "text": "Aus der Kommanditgesellschaft wird die Brölthaler Eisenbahn-Actien-Gesellschaft. (Nach der neueren Literatur; Modul geplant.)"
+  },
+  {
+   "d": "6. September 1870",
+   "side": "staat",
+   "titel": "Nach Waldbröl",
+   "text": "Die Strecke wird von Ruppichteroth nach Waldbröl verlängert, mit 60 000 Talern Beihilfe des Staates. (Nach der neueren Literatur; Modul geplant.)"
+  },
+  {
+   "d": "16. September 1872",
+   "side": "tal",
+   "titel": "Fahrgäste",
+   "text": "Regelmäßiger Personenverkehr. (Nach der neueren Literatur; Modul geplant.)"
+  },
+  {
+   "d": "um 1875",
+   "side": "gruben",
+   "titel": "Das Erz geht aus",
+   "text": "Der Bergbau um Ruppichteroth kommt zum Erliegen; 1864 fuhren 28 700 Tonnen Erz talabwärts, 1881 noch 13 000. (Nach der neueren Literatur; Modul geplant.)"
+  },
+  {
+   "d": "1885",
+   "side": "gesellschaft",
+   "titel": "Die Banken",
+   "text": "Das Bankhaus Sal. Oppenheim und die Disconto-Gesellschaft übernehmen die Gesellschaft. (Nach der neueren Literatur; Modul geplant.)"
+  },
+  {
+   "d": "1891–1892",
+   "side": "gesellschaft",
+   "titel": "Nach Beuel und Asbach",
+   "text": "Hennef–Beuel (1. Dezember 1891), Buchholz und Asbach (1892): Die Bahn erreicht den Rhein gegenüber Bonn. (Nach der neueren Literatur; Modul geplant.)"
+  },
+  {
+   "d": "1899–1903",
+   "side": "gesellschaft",
+   "titel": "Das Netz",
+   "text": "Niederpleis–Siegburg (1899), Herresbach–Rostingen (1902), die Heisterbacher Talbahn (1903): bis zu 87 Kilometer. Basalt aus den Steinbrüchen wird die wichtigste Fracht. (Nach der neueren Literatur; Modul geplant.)"
+  },
+  {
+   "d": "1905",
+   "side": "nachwelt",
+   "titel": "Im Baedeker",
+   "text": "Der Baedeker nennt Hennef den „Knotenpunkt für die Bröltalbahn“ und das Bröltal eine Sommerfrische. (Modul geplant.)"
+  },
+  {
+   "d": "1921",
+   "side": "gesellschaft",
+   "titel": "Rhein-Sieg-Eisenbahn",
+   "text": "Die Gesellschaft heißt nun Rhein-Sieg-Eisenbahn-AG. (Ausblick nach der neueren Literatur.)"
+  },
+  {
+   "d": "1956 und 1967",
+   "side": "tal",
+   "titel": "Die letzten Züge",
+   "text": "Der letzte Personenzug fährt 1956 von Hennef nach Asbach, der letzte Güterzug 1967 von Eudenberg nach Beuel. (Ausblick nach der neueren Literatur.)"
+  }
+ ]
+}
