@@ -1,6 +1,6 @@
 {
  "lede": "Karten, Ansichten und Papiere aus gemeinfreien Vorlagen.",
- "credit": "Die Tafeln stammen aus gemeinfreien oder CC0-Reproduktionen über Wikimedia Commons; jede nennt ihre Herkunft. Für die Module „Das Erz“ und „Pferd und Dampf“: Ausschnitte der Karte des Deutschen Reiches 1:100 000 um 1900 (David Rumsey Map Collection). Die Bilder sind verkleinert oder beschnitten, sonst unverändert.",
+ "credit": "Die Tafeln stammen aus gemeinfreien oder CC0-Reproduktionen über Wikimedia Commons; jede nennt ihre Herkunft. Für die Module 1 bis 3: Ausschnitte der Karte des Deutschen Reiches 1:100 000 um 1900 (David Rumsey Map Collection). Die Bilder sind verkleinert oder beschnitten, sonst unverändert.",
  "plates": [
   {
    "id": "karte_tal",
@@ -41,6 +41,14 @@
    "caption": "Das obere Bröltal: links Schönenberg, wo die Zweigbahn ins Saurenbacher Tal abging, in der Mitte Ruppichteroth, bis 1870 das Ende der Bahn, rechts oben Waldbröl. Die Verlängerung dorthin bezahlten 1869/70 der Staat und die Bergwerksgesellschaft Phoenix (Aktien [2]). Die Karte zeigt den Stand um 1900.",
    "source": "Karte des Deutschen Reiches 1:100 000, Blätter 430–431, um 1900; David Rumsey Map Collection, gemeinfrei, via Wikimedia Commons. Ausschnitt.",
    "cite": "#/text/dampf/aktien/2"
+  },
+  {
+   "id": "karte_mitte",
+   "side": "tal",
+   "titel": "Das mittlere Bröltal: Winterscheid, Herrenstein, Schönenberg",
+   "caption": "Die Bröl schlängelt sich von Schönenberg (oben rechts) über Herrenstein nach Winterscheid (links); die Bahn folgt der Straße im Tal. Zum Herrenstein, einer der Haltestellen, fuhren 1880 die Kölner Ferienkinder auf Leiterwagen (Fahrgäste [4]). Ein Bauernland ohne Industrie: „weder bevölkert, noch industrielle Ortschafften“, schrieb Sorge 1875 (Gruben [3]).",
+   "source": "Karte des Deutschen Reiches 1:100 000, Blätter 430–431, um 1900; David Rumsey Map Collection, gemeinfrei, via Wikimedia Commons. Ausschnitt.",
+   "cite": "#/text/krise/gruben/3"
   }
  ]
 }

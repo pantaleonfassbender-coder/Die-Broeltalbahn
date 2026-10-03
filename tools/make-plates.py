@@ -28,6 +28,8 @@ PLATES = {
     # Modul 2: Pferd und Dampf
     "karte_allner": ("commons", KARTE, 3840, (345, 585, 550, 860)),
     "karte_waldbroel": ("commons", KARTE, 3840, (600, 0, 1000, 410)),
+    # Modul 3: Nach dem Erz
+    "karte_mitte": ("commons", KARTE, 3840, (455, 215, 725, 690)),
 }
 
 

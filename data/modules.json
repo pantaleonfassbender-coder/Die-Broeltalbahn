@@ -17,16 +17,18 @@
    "kurz": "Pferd und Dampf, 1862–1870",
    "warum": "Die ersten acht Jahre der Bahn: die Lokomotive von 1863, die Polizeiverordnung der Regierung zu Köln für einen Zug auf der Landstraße, ein Beinahe-Unfall unterhalb der Ingersauler Mühle, die Rechnungen für 1864 und 1867, das Lob der Fachpresse und 1869/70 Aktiengesellschaft und Verlängerung nach Waldbröl mit Geld des Staates. Achtzehn Stellen, am Seitenbild gelesen.",
    "quelle": "Der Berggeist 1863–1870; Amtsblatt Köln 1864; Vergleichende Übersicht der preußischen Landwirtschaft 1862/63; Zeitung des Vereins Deutscher Eisenbahnverwaltungen 1865 und 1868; Zeitschrift für Bauwesen 1865; Die Großindustrie Deutschlands 1867 (Bayerische Staatsbibliothek)."
+  },
+  {
+   "id": "krise",
+   "datei": "krise",
+   "side": "tal",
+   "zk": "Waldbröl · Gruben · Betrieb · Fahrgäste · Muster · Bilanz",
+   "kurz": "Nach dem Erz, 1870–1890",
+   "warum": "Die Jahre, in denen die Bahn ihren Zweck verlor und einen neuen fand: das Erz bleibt hinter den Erwartungen, die Fracht stagniert, die Fahrgäste kommen. Im Mittelpunkt der Bericht des sächsischen Oberbaurats Sorge von 1875 mit Pferd gegen Lokomotive und den Stimmen der Anwohner; dazu Kölner Ferienkinder 1880, ein warnender Abgeordneter 1884, Börsennotizen und 1889 die Konzession nach Beuel und Asbach. Achtzehn Stellen, am Seitenbild gelesen.",
+   "quelle": "Zeitschrift für Kapital und Rente 1870; Der Berggeist 1870–1880; Zeitung des Vereins Deutscher Eisenbahnverwaltungen 1875–1886 (darin C. Sorge); Annalen des Deutschen Reiches 1878; Correspondenzblatt des Niederrheinischen Vereins für öffentliche Gesundheitspflege 1880; Jahrbuch für Gesetzgebung 1880; Rheinischer Provinzial-Landtag 1884; Deutsche Industrie-Zeitung 1882–1887; Eisenbahn-Verordnungs-Blatt 1889 (Bayerische Staatsbibliothek)."
   }
  ],
  "planned": [
-  {
-   "id": "krise",
-   "side": "tal",
-   "kurz": "Nach dem Erz, 1870–1890",
-   "warum": "Personenverkehr ab 1872, das Ende des Bergbaus um 1875, eine Bahn ohne ihre Fracht, und 1885 die Banken. Die dünnste Zeit der Quellen; der Apparat sagt, wo sie schweigen.",
-   "quelle": "Zeitungen und Fachzeitschriften der Jahre 1870–1890 (Sichtung offen); Reichsanzeiger."
-  },
   {
    "id": "ausbau",
    "side": "gesellschaft",

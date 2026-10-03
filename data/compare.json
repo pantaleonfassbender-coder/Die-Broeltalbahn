@@ -173,6 +173,107 @@
      ]
     }
    ]
+  },
+  {
+   "id": "erz_ende",
+   "titel": "Wann ging das Erz aus?",
+   "frage": "Vier Stimmen von 1870 bis 1880 über das Erz, für das die Bahn gebaut war.",
+   "note": "Die Hüttengesellschaft fördert 1870 nur noch 254 Wagen; 1873 stehen Gruben und Bahn gemeinsam in ihrer Bilanz; Sorge spricht 1875 von „Täuschungen in der Ergiebigkeit der Erze“; die Grube der Phoenix steht von etwa 1876 bis 1880 still und fördert dann wieder. Kein Datum, sondern ein Auslaufen über ein Jahrzehnt.",
+   "voices": [
+    {
+     "text": "krise",
+     "sec": "gruben",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "krise",
+     "sec": "gruben",
+     "n": [
+      2
+     ]
+    },
+    {
+     "text": "krise",
+     "sec": "gruben",
+     "n": [
+      3
+     ]
+    },
+    {
+     "text": "krise",
+     "sec": "gruben",
+     "n": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fahrgaeste",
+   "titel": "Wie viele fuhren mit?",
+   "frage": "Von der Güterbahn zur Bahn für Menschen, 1875 bis 1880.",
+   "note": "Um 1875 gut 4 000 Fahrgäste im Jahr und ein „sehr vernachlässigter“ Personenverkehr; 1878 Anschluss an die Staatsbahn, Wagen für zwei Klassen und ein „reger“ Verkehr; um 1880 rund 20 000 im Jahr, bei gleichbleibender Fracht. Die Bahn wächst durch die Menschen, nicht durch das Erz.",
+   "voices": [
+    {
+     "text": "krise",
+     "sec": "fahrgaeste",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "krise",
+     "sec": "fahrgaeste",
+     "n": [
+      3
+     ]
+    },
+    {
+     "text": "krise",
+     "sec": "fahrgaeste",
+     "n": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strasse",
+   "titel": "Eine Bahn auf der Straße: Vorbild oder Warnung?",
+   "frage": "Was Fachleute, Anwohner und ein Abgeordneter von der Bahn auf der Chaussee hielten.",
+   "note": "Sorge sieht 1875 das „einfachste und bescheidenste Verkehrsinstitut der Neuzeit“ und zufriedene Anwohner; die Statistik von 1886 bestätigt die niedrigen Kosten; der Abgeordnete von Loë warnt 1884 vor weiteren Bahnen auf Provinzialstraßen, gestützt auf die Aggertalbahn, nicht auf die Bröltalbahn.",
+   "voices": [
+    {
+     "text": "krise",
+     "sec": "waldbroel",
+     "n": [
+      2
+     ]
+    },
+    {
+     "text": "krise",
+     "sec": "betrieb",
+     "n": [
+      3
+     ]
+    },
+    {
+     "text": "krise",
+     "sec": "muster",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "krise",
+     "sec": "muster",
+     "n": [
+      2
+     ]
+    }
+   ]
   }
  ]
 }

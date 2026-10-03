@@ -98,19 +98,51 @@
    "d": "16. September 1872",
    "side": "tal",
    "titel": "Fahrgäste",
-   "text": "Regelmäßiger Personenverkehr. (Nach der neueren Literatur; Modul geplant.)"
+   "text": "Regelmäßiger Personenverkehr nach der neueren Literatur. Um 1875 zählt der Jahresbericht gut 4 000 Fahrgäste im Jahr, der Verkehr gilt als „sehr vernachlässigt“; 1878 heißt er „rege“, um 1880 sind es 20 000.",
+   "cite": "#/text/krise/fahrgaeste/1",
+   "citeLabel": "Fahrgäste [1]"
   },
   {
    "d": "um 1875",
    "side": "gruben",
    "titel": "Das Erz geht aus",
-   "text": "Der Bergbau um Ruppichteroth kommt zum Erliegen; 1864 fuhren 28 700 Tonnen Erz talabwärts, 1881 noch 13 000. (Nach der neueren Literatur; Modul geplant.)"
+   "text": "„Täuschungen in der Ergiebigkeit der Erze“: Die Bahn lebt von Kalk, Kohle und Landwirtschaft, nicht vom Erz. Die Grube der Phoenix im Bröltal steht nach 1876 vier Jahre still und fördert 1880 wieder. Die neuere Literatur nennt für 1881 noch 13 000 Tonnen Erz.",
+   "cite": "#/text/krise/gruben/3",
+   "citeLabel": "Gruben [3]",
+   "plate": "karte_mitte"
+  },
+  {
+   "d": "18. August 1880",
+   "side": "nachwelt",
+   "titel": "Ferienkinder",
+   "text": "Sechzig arme, kränkliche Kölner Schulkinder fahren für 25 Tage an die Sieg; die Mädchen wohnen in Weingartsgasse und Seligenthal bei Hennef und machen einen Ausflug „durch das Brölthal“ zum Herrenstein, auf Leiterwagen.",
+   "cite": "#/text/krise/fahrgaeste/4",
+   "citeLabel": "Fahrgäste [4]",
+   "plate": "karte_allner"
+  },
+  {
+   "d": "1884",
+   "side": "staat",
+   "titel": "Eine Warnung",
+   "text": "Im Rheinischen Provinziallandtag warnt Freiherr Eugen von Loë davor, weitere Bahnen auf Provinzialstraßen zu fördern; auf der neuen Aggertalbahn entgleise alle zwei Wochen ein Zug.",
+   "cite": "#/text/krise/muster/2",
+   "citeLabel": "Muster [2]"
   },
   {
    "d": "1885",
    "side": "gesellschaft",
    "titel": "Die Banken",
-   "text": "Das Bankhaus Sal. Oppenheim und die Disconto-Gesellschaft übernehmen die Gesellschaft. (Nach der neueren Literatur; Modul geplant.)"
+   "text": "Das Bankhaus Sal. Oppenheim und die Disconto-Gesellschaft übernehmen die Gesellschaft (nach der neueren Literatur; in den Digitalisaten bisher nicht belegt). Die Börsenblätter melden bis 1885 Abschreibungen statt Dividenden, 1887 fünf Prozent.",
+   "cite": "#/text/krise/bilanz/1",
+   "citeLabel": "Bilanz [1]"
+  },
+  {
+   "d": "27. Oktober 1889",
+   "side": "staat",
+   "titel": "Die Konzession für das Netz",
+   "text": "Der König genehmigt der Brölthaler Eisenbahn-Aktien-Gesellschaft schmalspurige Strecken von Hennef nach Beuel und nach Asbach, mit einem Abzweig zu den Brüchen an der Bennau.",
+   "cite": "#/text/krise/bilanz/2",
+   "citeLabel": "Bilanz [2]"
   },
   {
    "d": "1891–1892",
