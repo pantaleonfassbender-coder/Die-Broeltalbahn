@@ -65,7 +65,7 @@ function overview() {
     <div class="panel"><h3>Was brachte die Bahn dem Tal?</h3>
       <p>Anschluss an die Welt, Arbeit in den Steinbrüchen, Gäste in den Dörfern, und eine Abhängigkeit von einer Gesellschaft, die anderswo rechnete. Die Lokalzeitungen erzählen beides.</p></div>
     <div class="panel"><h3>Lässt sich das spielen?</h3>
-      <p>Das Begleitspiel <em>Mit Volldampf ins Bröltal</em> ist in Vorbereitung: Man führt die Direktion der Gesellschaft, zwischen Aktionären, Grubenbesitzern, Gemeinden und Behörden. Das Erz geht aus, was man auch tut; gewertet wird, was die Bahn dem Tal ließ. Jede Karte wird auf eine Stelle verweisen, die hier abgedruckt ist.</p></div>
+      <p>Das Begleitspiel <a href="https://mit-volldampf-ins-broeltal.netlify.app/"><em>Mit Volldampf ins Bröltal</em></a> ist in Vorbereitung: Man führt die Direktion der Gesellschaft, zwischen Aktionären, Grubenbesitzern, Gemeinden und Behörden. Das Erz geht aus, was man auch tut; gewertet wird, was die Bahn dem Tal ließ. Jede Karte wird auf eine Stelle verweisen, die hier abgedruckt ist.</p></div>
   </div>`;
 }
 
