@@ -65,6 +65,114 @@
      ]
     }
    ]
+  },
+  {
+   "id": "dampf_wann",
+   "titel": "Seit wann fuhr die Lokomotive?",
+   "frage": "Vier Stimmen von 1863 bis 1865 über den Beginn des Dampfbetriebs.",
+   "note": "Die Hüttengesellschaft sagt im September 1863 „seit einigen Monaten“; die Landwirtschaftsstatistik für 1862/63 kennt nur eine Pferdebahn; ein Bericht vom Juli 1864 lässt die Lokomotive „schon seit zwei Jahren“ fahren; die Fachzeitung zählt im Mai 1865 zwei Jahre Betrieb ohne Unfall. Am genauesten ist die Stimme aus dem Unternehmen; der Bericht von 1864, der beruhigen will, rundet auf.",
+   "voices": [
+    {
+     "text": "dampf",
+     "sec": "dampf",
+     "n": [
+      2
+     ]
+    },
+    {
+     "text": "dampf",
+     "sec": "dampf",
+     "n": [
+      3
+     ]
+    },
+    {
+     "text": "dampf",
+     "sec": "chaussee",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "dampf",
+     "sec": "chaussee",
+     "n": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gefahr",
+   "titel": "Gefährlich oder nicht?",
+   "frage": "Ein Zug auf der Landstraße: was die Behörde vorschreibt und was die Fachpresse versichert.",
+   "note": "Der Bericht vom Juli 1864 und der Fachartikel von 1865 erklären die Sorgen für erledigt; die Regierung zu Köln schreibt im November 1864 trotzdem Glocke, Schranken, Höchstgeschwindigkeit und zwei Begleiter für scheuende Tiere vor, und sie bestraft das Publikum, nicht die Bahn. Die Stimme derer, die sich sorgten, fehlt: Sie stand in den Lokalblättern.",
+   "voices": [
+    {
+     "text": "dampf",
+     "sec": "verordnung",
+     "n": [
+      2
+     ]
+    },
+    {
+     "text": "dampf",
+     "sec": "verordnung",
+     "n": [
+      3
+     ]
+    },
+    {
+     "text": "dampf",
+     "sec": "chaussee",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "dampf",
+     "sec": "chaussee",
+     "n": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lohnt",
+   "titel": "Lohnte sich die Bahn?",
+   "frage": "Für wen und woran gemessen: Ertrag der Bahn oder billiges Erz für die Hütte.",
+   "note": "Die Hüttengesellschaft verzichtet 1863 auf einen „directen Ertrag“ und will billige Fracht; die Fachzeitung rechnet 1865 vor, die Bahn verdiene ihre Zinsen; der Jahresbericht für 1867 zeigt weniger Fracht als 1864 und einen kleinen Reinertrag. 1870 will die Hüttengesellschaft ihr Kapital aus der Bahn zurück.",
+   "voices": [
+    {
+     "text": "dampf",
+     "sec": "dampf",
+     "n": [
+      2
+     ]
+    },
+    {
+     "text": "dampf",
+     "sec": "vorbild",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "dampf",
+     "sec": "ertrag",
+     "n": [
+      3
+     ]
+    },
+    {
+     "text": "dampf",
+     "sec": "aktien",
+     "n": [
+      3
+     ]
+    }
+   ]
   }
  ]
 }

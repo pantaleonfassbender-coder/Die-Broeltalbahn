@@ -45,22 +45,54 @@
    "plate": "karte_broel"
   },
   {
-   "d": "April 1863",
+   "d": "Frühjahr 1863",
    "side": "gesellschaft",
    "titel": "Dampf",
-   "text": "Die erste Dampflokomotive fährt im Bröltal; genannt werden der 5. April (Genehmigung) und der 25. April. (Nach der neueren Literatur; Modul geplant.)"
+   "text": "„Seit einigen Monaten“, berichtet die Hüttengesellschaft im September, fahre statt der Pferde eine kleine Lokomotive; am 1. Juli 1863 ist die Bahn bis Ruppichteroth „ganz vollendet“. Die neuere Literatur nennt den 5. April (Genehmigung) und den 25. April.",
+   "cite": "#/text/dampf/dampf/2",
+   "citeLabel": "Dampf [2]"
+  },
+  {
+   "d": "29. Juli 1864",
+   "side": "tal",
+   "titel": "Fünfzehn Schritte",
+   "text": "Unterhalb der Ingersauler Mühle stürzt ein Pferd quer über die Schienen; der Zug mit gut zwanzig beladenen Wagen hält rechtzeitig. Der Bericht will Befürchtungen „zerstreuen“: Über 400 Menschen arbeiteten jetzt in Gruben und Kalkbrüchen des Tals.",
+   "cite": "#/text/dampf/chaussee/1",
+   "citeLabel": "Chaussee [1]"
+  },
+  {
+   "d": "16. November 1864",
+   "side": "staat",
+   "titel": "Die Polizeiverordnung",
+   "text": "Die Regierung zu Köln regelt den Dampfbetrieb auf der Straße: Funkenfänger, 15 km/h im Feld und 7,5 km/h im Dorf, zwei Mann für scheuende Tiere, Schranken an der Siegbrücke bei Allner, bis zu zehn Taler Buße für das Publikum.",
+   "cite": "#/text/dampf/verordnung/1",
+   "citeLabel": "Verordnung [1]",
+   "plate": "karte_allner"
+  },
+  {
+   "d": "27. Mai 1865",
+   "side": "gesellschaft",
+   "titel": "Ein Vorbild",
+   "text": "Die Zeitung des Vereins Deutscher Eisenbahnverwaltungen beschreibt die Bahn genau, eine Lokomotive, 27 Wagen, 136 314 Taler Baukosten, und empfiehlt dem Staat solche Bahnen auf den Chausseen.",
+   "cite": "#/text/dampf/vorbild/1",
+   "citeLabel": "Vorbild [1]"
   },
   {
    "d": "3. Februar 1869",
    "side": "gesellschaft",
    "titel": "Die Aktiengesellschaft",
-   "text": "Aus der Kommanditgesellschaft wird die Brölthaler Eisenbahn-Actien-Gesellschaft. (Nach der neueren Literatur; Modul geplant.)"
+   "text": "Die Kommanditgesellschaft Friedlieb Gustorff & Co. beschließt die Umwandlung in eine Aktiengesellschaft und den Weiterbau nach Waldbröl; das Statut wird am 3. Februar notariell vollzogen und am 12. April vom König genehmigt.",
+   "cite": "#/text/dampf/aktien/1",
+   "citeLabel": "Aktien [1]"
   },
   {
    "d": "6. September 1870",
    "side": "staat",
    "titel": "Nach Waldbröl",
-   "text": "Die Strecke wird von Ruppichteroth nach Waldbröl verlängert, mit 60 000 Talern Beihilfe des Staates. (Nach der neueren Literatur; Modul geplant.)"
+   "text": "Die Bahn fährt bis Waldbröl (Datum nach der neueren Literatur). Bezahlt haben die Verlängerung eine Staatsprämie von 60 000 Talern und rund 30 000 Taler der Bergwerksgesellschaft Phoenix; die Hüttengesellschaft will ihr Kapital aus der Bahn zurück.",
+   "cite": "#/text/dampf/aktien/2",
+   "citeLabel": "Aktien [2]",
+   "plate": "karte_waldbroel"
   },
   {
    "d": "16. September 1872",

@@ -9,6 +9,7 @@ These, an den Texten zu prüfen: Gebaut für das Erz, geblieben für das Tal. De
 Stufe 1 (in Arbeit), fünf Module: siehe `data/modules.json`. Abgedruckt:
 
 - **Das Erz, 1853–1862** — F. W. von Reden, *Erwerbs- und Verkehrs-Statistik des Königstaats Preußen* (1853); C. Hartmann, *Der heutige Standpunkt des deutschen Eisenhüttengewerbes* (1861); Erlass vom 4. September 1859 (Staats-Anzeiger); *Der Berggeist* 1860–1861; *Zeitung des Vereins Deutscher Eisenbahnverwaltungen* 1862; *Der Aktionär* 1862. Zwölf Stellen, am Seitenbild gelesen (Bayerische Staatsbibliothek).
+- **Pferd und Dampf, 1862–1870** — *Der Berggeist* 1863–1870; Polizei-Verordnung der Regierung zu Köln vom 16. November 1864 (Amtsblatt); *Vergleichende Übersicht des Standes und Ganges der preussischen Landwirthschaft* 1862/63; *Zeitung des Vereins Deutscher Eisenbahnverwaltungen* 1865 und 1868; *Zeitschrift für Bauwesen* 1865; *Die Großindustrie Deutschlands* 1867. Achtzehn Stellen, am Seitenbild gelesen (Bayerische Staatsbibliothek).
 
 Die Lokalzeitungen des Siegkreises (zeitpunkt.nrw) sind aus den Vereinigten Staaten nicht zugänglich; die überregionalen Blätter der Bayerischen Staatsbibliothek vertreten sie.
 

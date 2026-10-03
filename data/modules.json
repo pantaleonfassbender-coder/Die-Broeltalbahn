@@ -8,16 +8,18 @@
    "kurz": "Das Erz, 1853–1862",
    "warum": "Wie die Bahn entstand, in den Stimmen ihrer Zeit: das Bröltal in der Statistik von 1853, die Brölstraße von 1859, der Plan im „Berggeist“ von 1860 mit Kosten, Kommandite und der Bedingung der Regierung zu Köln, die Anleihe der Hüttengesellschaft 1861 und die Eröffnung im Sommer 1862. Zwölf Stellen, am Seitenbild gelesen.",
    "quelle": "Reden 1853; Hartmann 1861; Staats-Anzeiger 1859; Der Berggeist 1860–1861; Zeitung des Vereins Deutscher Eisenbahnverwaltungen 1862; Der Aktionär 1862 (Bayerische Staatsbibliothek)."
+  },
+  {
+   "id": "dampf",
+   "datei": "dampf",
+   "side": "gesellschaft",
+   "zk": "Dampf · Verordnung · Chaussee · Ertrag · Vorbild · Aktien",
+   "kurz": "Pferd und Dampf, 1862–1870",
+   "warum": "Die ersten acht Jahre der Bahn: die Lokomotive von 1863, die Polizeiverordnung der Regierung zu Köln für einen Zug auf der Landstraße, ein Beinahe-Unfall unterhalb der Ingersauler Mühle, die Rechnungen für 1864 und 1867, das Lob der Fachpresse und 1869/70 Aktiengesellschaft und Verlängerung nach Waldbröl mit Geld des Staates. Achtzehn Stellen, am Seitenbild gelesen.",
+   "quelle": "Der Berggeist 1863–1870; Amtsblatt Köln 1864; Vergleichende Übersicht der preußischen Landwirtschaft 1862/63; Zeitung des Vereins Deutscher Eisenbahnverwaltungen 1865 und 1868; Zeitschrift für Bauwesen 1865; Die Großindustrie Deutschlands 1867 (Bayerische Staatsbibliothek)."
   }
  ],
  "planned": [
-  {
-   "id": "dampf",
-   "side": "gesellschaft",
-   "kurz": "Pferd und Dampf, 1862–1870",
-   "warum": "Die Pferdebahn von Hennef nach Ruppichteroth 1862, der Dampfbetrieb ab 1863, die Aktiengesellschaft von 1869 und die Verlängerung nach Waldbröl 1870 mit einer Beihilfe des Staates.",
-   "quelle": "Siegburger Kreisblatt 1863–1865 (zeitpunkt.nrw); Zeitung des Vereins Deutscher Eisenbahnverwaltungen 5 (1865) und 10 (1870) (Bayerische Staatsbibliothek)."
-  },
   {
    "id": "krise",
    "side": "tal",

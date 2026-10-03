@@ -1,0 +1,225 @@
+"""Modul 2: Pferd und Dampf, 1862–1870. Schreibt data/dampf.json.
+
+Alle Stellen am Seitenbild gelesen, in den Digitalisaten der Bayerischen Staatsbibliothek
+(digitale-sammlungen.de; Bildnummer in Klammern):
+- Der Berggeist 8 (1863), S. 338 (bsb10705894, Bild 342); 9 (1864), Nr. 63, S. [271]
+  (bsb10705895, Bild 275); 14 (1869), S. 177 und 455 (bsb10705900, Bild 183 und 473);
+  15 (1870), S. 587 (bsb10705901, Bild 591).
+- Vergleichende Übersicht des Standes und Ganges der preussischen Landwirthschaft 1862/63
+  (Berlin 1864), S. 37 (bsb10946983, Bild 49).
+- Amtsblatt für den Regierungsbezirk Köln 1864, S. 329–331, Nro. 487 (bsb10694829, Bild 343–345).
+- Zeitung des Vereins Deutscher Eisenbahnverwaltungen 5 (1865), Nr. 21, S. 249–250
+  (bsb10934034, Bild 269–270); 8 (1868), S. 475 (bsb10934037, Bild 507).
+- Zeitschrift für Bauwesen 15 (1865), Sp. 505–506 (bsb10933688, Bild 320).
+- Die Großindustrie Deutschlands, Bd. 1 (Leipzig 1867), S. 335 (bsb10304872, Bild 347).
+Schreibung und Zeichensetzung der Drucke; ſ als s, ꝛc. als etc.; Silbentrennung aufgelöst;
+Sperrungen nicht wiedergegeben; Auslassungen […].
+"""
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent.parent / "data" / "dampf.json"
+
+
+def u(n, pg, titel, orig, note=""):
+    d = {"n": n, "pg": pg, "titel": titel, "orig": orig.strip()}
+    if note:
+        d["note"] = note
+    return d
+
+
+DAMPF = [
+    u(1, "Berggeist 8 (1863), S. 338", "Herbst 1863: die Grube Juliane und der Kalk",
+      """* Köln, 15. Oct. Aus den Verhandlungen in der am 28. Sept. hier abgehaltenen Gen.-Vers. des Siegrheinischen Bergwerks- und Hütten-Actienvereins möge zunächst das Wesentliche aus dem Bericht des General-Directors, Hrn. Emil Langen, hier Platz finden.
+
+[…] Die Thätigkeit erstreckte sich im Wesentlichen auf Vorrichtungs-Arbeiten in wenigen, demnächst zur Exploitation kommenden Territorien, sowie auf die Gewinnungs- und Ausrichtungs-Arbeiten in den Gruben Gottessegen bei Dambroich, Johann Jacob bei Kircheip und Juliane bei Ruppichteroth, deren Förderung unter Zusatz von Spath- und Roth-Eisenstein den Hohöfen als Schmelz-Material diente. Das grosse Feld der Grube Juliane bei Ruppichteroth, welches erst seit Januar v. J. in Angriff genommen worden, erheischte eingehende Aufschluss-Arbeiten, welche theils durch Bohrungen, theils durch kleine Versuchsschächte, gleichzeitig mit einer schon erheblichen Gewinnung, bewerkstelligt wurden. Diese Arbeiten haben eine erfreuliche Ausdehnung des Eisenstein-Vorkommens nachgewiesen, dessen Begränzung aber noch nicht derart constatirt ist, dass die bereits vor Jahresfrist beabsichtigte Verbindung der Haupt-Förderpuncte mit der Boelthaler Eisenbahn und eben so wenig die Aufstellung einer bereits im vorjährigen Berichte erwähnten Maschinenwäsche hätte vorgenommen werden können. Der Bedarf an Kalkstein wurde seit Januar d. J. vollständig aus den Brüchen des Broelthales bezogen.""",
+      "Emil Langen war Generaldirektor der Hüttengesellschaft, die die Bahn angestoßen hatte (Plan [1]); seine Berichte an die Generalversammlung sind die verlässlichste Stimme aus dem Inneren des Unternehmens. Die Friedrich-Wilhelms-Hütte holte 1863 ihren ganzen Kalk aus dem Bröltal, das Erz zum Teil. Ein Gleis bis an die Gruben selbst gab es noch nicht; die Erze kamen wohl auf Karren an die Bahn. „Boelthaler“ ist ein Druckfehler."),
+    u(2, "Berggeist 8 (1863), S. 338", "„nicht mehr mit Pferden“",
+      """Es mag hier der Ort sein, zu berichten, dass die schmalspurige, auf eine Banquet-Seite der Chaussee gelegte Eisenbahn in das Broelthal, welche in einer Länge von drei Meilen von Hennef nach Ruppichteroth führt und welche theilweise im Herbst v. J. dem Betriebe übergeben wurde, nunmehr, d. h. seit 1. Juli d. J. ganz vollendet und in Betrieb ist. An jenem Transport-Unternehmen, welches im Ganzen ca. 125,000 Thlr. in Anspruch nimmt, ist der Verein mit 65,000 Thlr. betheiligt. Einen directen Ertrag hat jene Betheiligung, wie bei den Anfängen des Betriebes leicht erklärlich, noch nicht gebracht, wohl aber einen indirecten, indem sie das Kalkstein-Revier und einen werthvollen Eisenstein-District erschloss. Seit einigen Monaten werden jene Transporte nicht mehr mit Pferden, sondern mittelst einer kleinen Locomotive bewerkstelligt, und dadurch wesentliche Ersparnisse erzielt. Eine Erhöhung der Frachten, welche zur Zeit diejenigen der Köln-Mindener Eisenbahn nicht vollständig erreichen, haben wir nicht veranlassen mögen, hoffen vielmehr durch eine zeitweilige Verzichtleistung auf einen nennenswerthen directen Ertrag dieses von uns in's Leben gerufene Unternehmen durch raschere Entwicklung des Verkehrs in Kürze dahin zu bringen, dass es selbst bei dem jetzigen Tarife sein Bestehen finde. (Forts. f.)""",
+      "Die wichtigste Stelle des Moduls, aus derselben Rede. Drei Angaben stehen in Spannung zu anderen: Eröffnet „theilweise im Herbst v. J.“, also 1862, ganz erst am 1. Juli 1863; die Meldungen von 1862 erwarteten den Betrieb schon im Juni (Anleihe [3]). Die Kosten von 125 000 Talern liegen über den 75 000 des Plans (Plan [1]) und unter den 136 314 der Abrechnung von 1865 (Ertrag [1]). Und die Lokomotive fährt „seit einigen Monaten“, also seit dem Frühjahr 1863; die neuere Literatur nennt April 1863. Die Hüttengesellschaft hält mehr als die Hälfte des Kapitals und verzichtet bewusst auf höhere Frachten: Ihr Gewinn liegt im billigen Erz und Kalk, nicht in der Bahn. Drei Meilen sind gut 22 Kilometer."),
+    u(3, "Vergleichende Übersicht 1862/63 (1864), S. 37", "Die Statistik hinkt hinterher: „Eine Pferdebahn“",
+      """Rheinland. Siegburg. Die Verkehrsmittel sind sehr günstig und werden fortwährend durch neue Anlagen verbessert; ihr Einfluss ist unverkennbar. Eine Pferdebahn durch das Bröhlthal führt Kalk und Erze in dreifach geringerer Fracht zu, als früher.""",
+      "Ein Satz aus der amtlichen preußischen Landwirtschaftsstatistik, unter „Einrichtungen für den Verkehr“. Sie berichtet über das Wirtschaftsjahr 1862/63 und kennt darum nur die Pferdebahn. „Dreifach geringer“ heißt: ein Drittel der früheren Fracht. Dasselbe Verhältnis nennt 1865 die Eisenbahn-Fachzeitung für den Vergleich mit der Fuhre auf der Chaussee (Vorbild [1])."),
+    u(4, "ZVDEV 5 (1865), Nr. 21, S. 249", "Die Bahn im Mai 1865: Strecke, Stationen, Fahrzeuge",
+      """Die schmalspurige Locomotiv-Eisenbahn im Broelthale.
+
+[…] Es ist dies die im Broelthale im Sieg-Kreise von Hennef nach Ruppichteroth führende schmalspurige Eisenbahn. Die qu. Eisenbahn beginnt bei dem Orte Waarth, wo sie durch besonders angelegte Geleise und eine Ueberlade-Rampe mit der Station Hennef der Cöln-Giessener Eisenbahn verbunden ist, geht über Allner, Broel, Ingersauler Mühle, Herrenstein, Schönenberg nach Ruppichteroth und ist 5240 Ruthen lang.
+
+Bei Schönenberg zweigt sich eine Seitenbahn in das Saurenbacher Thal ab, welche 660 Ruthen lang ist.
+
+Die Hauptbahn von Waarth bis Ruppichteroth liegt auf dem Banket der Broelthal-Bezirksstrasse, für die Zweigbahn im Saurenbacher Thale ist ein besonderer Bahnkörper angelegt.
+
+Die Geleise der Bahn sind 2½ Fuss breit, die aus Eichenholz bestehenden Schwellen sind theils 6 Zoll breit und 4 Zoll hoch, theils 5 Zoll breit und 5 Zoll hoch und 4 Fuss lang; sie liegen in einer Entfernung von 18 bis 19" von Mitte zu Mitte, so dass auf die laufende Ruthe Schienen 7½ Stück Schwellen kommen. Die Schwellen liegen in einer circa 8 Zoll starken Kiesbettung. Die Schienen haben die Vignolform und ein Gewicht von 7 Pfund pro laufenden Fuss […].
+
+[…] Halte- resp. Ausweichestellen befinden sich zu Waarth resp. Hennef, Allner, Broel, Ingersauler Mühle, Herrenstein, Schönenberg und Ruppichteroth; Wasserstationen befinden sich zu Hennef, Ingersauler Mühle und Schönenberg; Güterschuppen sind in Hennef, Ruppichteroth und Schönenberg hergestellt. Am letzteren Orte ist mit dem Güterschuppen ein Expeditions-Büreau nebst Zimmer zum Aufenthalt des Fahrpersonals verbunden. Zu Hennef ist ein Locomotivschuppen, eine kleine Reparatur-Werkstätte, ein Expeditionshaus, eine Drehscheibe und Centesimal-Waage vorhanden.
+
+An Betriebs-Material besitzt die Eisenbahn-Gesellschaft eine Locomotive und 27 Wagen, worunter ein Personenwagen für Dienstzwecke, der aber gelegentlich auch als Güterwagen dient, und wurden dieselben in der Carlsruher Maschinenbau-Anstalt angefertigt.
+
+Die Locomotive arbeitet mit einem Dampfüberdruck von sechs Atmosphären, ist eine Tender-Maschine, deren Cylinder 11 Zoll Durchmesser und 13 Zoll Hub haben und hat 6 gekuppelte Räder, deren mittlere Achse beweglich ist. Dieselbe ist mit der Wasser- und Cokes-Füllung 240 Centner schwer und jede Achse hat eine Balastung von 80 Centnern. Die Wagen haben ein Eigengewicht von 50 Centnern und Tragfähigkeit von 100 Centnern […].""",
+      "Die ausführlichste Beschreibung der frühen Bahn, im Fachblatt der deutschen Bahnverwaltungen vom 27. Mai 1865, ohne Verfasser. 2½ preußische Fuß sind 785 Millimeter, die Spurweite der Bahn bis zuletzt; die Hauptbahn misst knapp 20, die Zweigbahn knapp 2½ Kilometer. Die Schwellen sind aus Eiche. Es gibt genau eine Lokomotive, aus der Maschinenbaugesellschaft Karlsruhe, dazu 27 Wagen; ein eigener Personenwagen dient „für Dienstzwecke“, Fahrgäste befördert die Bahn noch nicht. Die Haltestellen sind dieselben Orte, die der Bericht vom Beinahe-Unfall 1864 nennt (Chaussee [1]); dort heißt die Mühle „Ingesaueler Mühle“."),
+]
+
+VERORDNUNG = [
+    u(1, "Amtsblatt Köln 1864, S. 329–330", "Funkenfänger und Strohdächer",
+      """Nro. 487. Polizei-Verordnung betreffend den Lokomotivenbetrieb auf der Bröhlthaler Eisenbahn und auf den von derselben ausgehenden Zweigbahnen.
+
+Auf Grund der §§. 11 und 12 des Gesetzes über die Polizeiverwaltung vom 11. März 1850 wird in Betreff des Lokomotivenbetriebes auf der Bröhlthaler Eisenbahn und auf den von derselben ausgehenden Zweigbahnen hierdurch nachstehende Polizei-Verordnung erlassen.
+
+I. Bestimmungen über den Betrieb der Bahn.
+
+§. 1. Der Rauchfang der Lokomotive ist mit einem Funkenfänger und einer Schließklappe zu versehen; der Aschenkasten aber muß so eingerichtet sein, daß während der Fahrt keine Brennstoffe herausfallen und daß derselbe vom Lokomotivführer gänzlich geschlossen und wieder geöffnet werden kann.
+
+§. 2. Fährt die Lokomotive an nicht feuersicher eingedeckten Dächern in weniger als fünf Ruthen Entfernung vorbei, so ist der Luftzug durch die Feuerung und das Blaserohr schon 10 Ruthen vor denselben möglichst abzusperren und erst 5 Ruthen hinter ihnen wieder zu öffnen.
+
+§. 3. Die Eisenbahn-Gesellschaft darf nur solche Leute als Lokomotivführer anstellen, die sich mit diesem Dienste und mit den Bahnverhältnissen vertraut gemacht haben. Auf Verlangen der unterzeichneten Königlichen Regierung muß die Gesellschaft solche Führer entlassen, welche sich als dienstunfähig oder unzuverlässig erweisen.""",
+      "Die Regierung zu Köln regelt den Dampfbetrieb erst im November 1864, anderthalb Jahre nach der ersten Lokomotive (Dampf [2]). Sie stützt sich auf das allgemeine Polizeigesetz, nicht auf das preußische Eisenbahngesetz: Die Bahn liegt auf einer öffentlichen Straße. „Nicht feuersicher eingedeckt“ sind Stroh- und Schindeldächer; fünf Ruten sind knapp 19 Meter, zehn Ruten knapp 38. Wer die Lokomotive fährt, darf die Gesellschaft bestimmen, entlassen kann ihn auch die Regierung."),
+    u(2, "Amtsblatt Köln 1864, S. 330", "Fahrplan, Glocke, Laternen und zwei Leute für die Pferde",
+      """§. 4. Die Dampfzüge dürfen nur nach Maßgabe des für dieselben vorgeschriebenen Fahrplanes stattfinden, welchen die Gesellschaft pünktlich einzuhalten hat. An allen Haltepfählen und in den Ortschaften sind an leicht sichtbaren Stellen die Fahrpläne der Gesellschaft in deutlich lesbarer Schrift anzuschlagen. Auf den Fahrten darf die Geschwindigkeit der Züge im freien Felde dreißig und in bewohnten Straßen sechzig Minuten pro Meile nicht übersteigen.
+
+§. 5. Bei der Annäherung an Ortschaften, Ecken, Kreuzwege, Fuhrwerke etc. hat der Lokomotivführer Signale zu geben und sich dabei der Glocke zu bedienen. — Außerdem ist bei Nachtzügen die Lokomotive mit einer in weißem Licht hell leuchtenden und der letzte Wagen mit einer in rothem Licht hell leuchtenden Laterne zu versehen.
+
+§. 6. Außer dem zur Lenkung und Bedienung des Zuges erforderlichen Personale müssen jedem Zuge wenigstens noch zwei Leute beigegeben werden, um scheu werdende Thiere zu beruhigen oder bei anderen Störungen, Wegräumung von Hindernissen etc. etc. hülfreiche Hand zu leisten. In allen solchen Fällen ist der Zug in gehöriger Entfernung anzuhalten.
+
+§. 7. Das Be- oder Entladen der ganzen Züge oder einzelner Theile derselben ist mit Ausnahme des Aus- und Einladens der zur Unterhaltung der Bahn erforderlichen Baumaterialien nur auf den bestehenden oder noch einzurichtenden Haltestellen gestattet; im Uebrigen ist jedes Anhalten der Züge auf der Chaussee oder auf den Straßen und Plätzen der zu passirenden Ortschaften, sofern es in dieser Polizeiverordnung nicht vorgeschrieben ist, untersagt.""",
+      "Die Geschwindigkeit ist in Minuten je Meile angegeben: dreißig Minuten für eine preußische Meile von 7,5 Kilometern sind 15 km/h im freien Feld, sechzig Minuten 7,5 km/h in den Dörfern. Die Fahrpläne hängen an den „Haltepfählen“ am Straßenrand; Bahnhöfe im üblichen Sinn gibt es nicht (Dampf [4]). Mit „Thiere“ sind die Zugtiere der Fuhrleute auf derselben Straße gemeint: Pferde und Kühe vor Karren, die neben dem Zug her gehen."),
+    u(3, "Amtsblatt Köln 1864, S. 330–331", "Schranken an der Siegbrücke, Pflichten des Publikums",
+      """§. 8. Die Barrieren, Schlagbäume und sonstige Vorrichtungen zum Abschluß der Kreuzwege, der Anschlußwege etc. etc. sind rechtzeitig vor dem Eintreffen des Zuges zu schließen. Die Barrieren an der Brücke bei Allner über die Sieg müssen 5 Minuten vor Eintreffen des Zuges geschlossen und nach Passiren desselben sogleich wieder durch einen Beamten der Bahn geöffnet werden.
+
+II. Bestimmungen für das Publikum.
+
+§. 9. Wenn die Barrieren, Schlagbäume und sonstigen Vorrichtungen zum Abschluß der Kreuzwege, der Anschlußwege etc. etc. geschlossen sind, haben Führer von Fuhrwerken, Reiter und Führer von Vieh an den aufgestellten Haltepfählen mit ihren Zugthieren, Pferden und Vieh zu halten, bis die Barrieren wieder geöffnet sind.
+
+§. 10. Sind bei der Annäherung eines Zuges Menschen auf oder an dem Bahngeleise, so müssen sie dasselbe auf das vom Lokomotivführer zu gebende Zeichen sofort verlassen. Ebenso sind Thiere von ihren Führern sofort von der Bahn zu entfernen. Niemand darf Gegenstände auf die Bahn oder so in deren Nähe legen, daß der Zug sie berühren kann. Wenn Thiere auf der Chaussee bei Annäherung des Zuges scheu werden, so muß der Zug sofort anhalten, und es müssen alsdann diejenigen Thiere, welche dem Zuge entgegen kommen sollen, von ihren Führern ohne Verzug vorbeigeführt werden, während diejenigen Thiere, welche in der Richtung des Zuges gehen sollen, hinter den Zug zu führen sind, damit letzterer weiter fahren kann.
+
+§. 11. Uebertretungen der in den §§. 9. und 10 dieser Polizei-Verordnung enthaltenen Vorschriften durch das Publikum werden mit einer Geldbuße bis zu 10 Thalern und im Falle des Unvermögens mit verhältnißmäßiger Gefängnißstrafe geahndet.
+
+Uebertretungen der vorstehenden Vorschriften durch die beim Transportbetriebe thätigen Angestellten der Bröhlthaler Eisenbahn-Gesellschaft werden im Disciplinarwege geahndet.
+
+Darüber, daß die Vorschriften dieser Polizei-Verordnung gehörig beobachtet werden, haben alle Polizeibeamten und zunächst die Chaussee-Aufseher und Gensdarmen zu wachen, und diejenigen, welche eine Uebertretung derselben sich zu Schulden kommen lassen, der Polizeibehörde zur Veranlassung der Bestrafung anzuzeigen.
+
+Cöln den 16. November 1864. Königliche Regierung.""",
+      "Die Siegbrücke bei Allner hatte die Gesellschaft neu gebaut, mit einer eigenen Fahrbahn für die Chaussee (Ertrag [1]); dort musste der Verkehr fünf Minuten vor dem Zug stehen. Der zweite Teil richtet sich an alle anderen auf der Straße. Wer seinen Karren nicht zur Seite bringt, zahlt bis zu zehn Taler; ein Streckenarbeiter der Bahn verdiente nach dem italienischen Bericht von 1871 knapp einen halben Taler am Tag, und wer nicht zahlen kann, geht ins Gefängnis; die Angestellten der Bahn trifft nur die Disziplin der Gesellschaft. Unterzeichnet ist die Verordnung am 16. November 1864."),
+]
+
+CHAUSSEE = [
+    u(1, "Berggeist 9 (1864), Nr. 63, 5. August", "Juli 1864: fünfzehn Schritte vor dem Pferd",
+      """Aus dem Broelthale, 29. Juli. Es ist so häufig in öffentlichen Blättern von der Broelbahn die Rede gewesen und die Gefahr für das Publicum, welche mit ihrem Betriebe verbunden sein sollte, besprochen worden, dass wir uns veranlasst sehen, hier eines Vorfalles zu erwähnen, der wohl dazu geeignet sein dürfte, auch den letzten Rest etwaiger Befürchtungen zu zerstreuen.
+
+Als nämlich vorgestern der Zug, ausser der Locomotive aus einigen 20 beladenen Waggons bestehend, von Ruppichteroth nach Hennef zurückkehrte, fuhr unterhalb der Ingesaueler Mühle ein mit leeren Fässern beladener Karren auf der Chaussee vor ihm her, dessen Fuhrmann, wie das namentlich auf der Broelstrasse leider so häufig geschieht, schlafend auf dem Karren lag und das Pferd seinen eigenen beliebigen Weg gehen liess. Wie der Eisenbahnzug eben im Begriffe steht, den Karren zu überholen, kommt bei einer Biegung des Weges ein mit Steinkohlen schwer beladener Karren zum Vorschein, der thalaufwärts fährt. Diesem Karren fährt der quaest. leere Karren, weil dessen Fuhrmann noch immer schläft, trotz der Bemühungen des aufwärts Fahrenden, in's Geschirr und zwar mit solcher Kraft, dass das eine Pferd zur Erde fällt, unglücklicher Weise aber quer auf die Schienen. Während dieser Carambolage und des Stürzens des einen Pferdes kommt nun der Zug herangebraust und ist in dem Augenblicke, wo das Pferd auf die Schienen stürzt, nur noch etwa 15 Schritte davon entfernt, da ertönt das Bremssignal, ein gellender Pfiff der Locomotive und fast im nämlichen Momente ist der ganze Zug zum Stehen gebracht. Fuhrmann und Pferd können aufspringen, die in Conflict gerathenen Fuhrwerke werden auseinander gebracht und nach einigen Minuten setzt ein Jeder seinen Weg fort, ohne die mindeste Fährlichkeit, nur mit dem gehabten Schrecken davonkommend. — Wenn man bedenkt, dass 15 Schritte eine sehr geringe Entfernung ist, um einen beladenen, thalwärts gehenden Zug aus rascher Gangart zum Stillstehen zu bringen, der in Rede stehende Bahnzug aber dieser Entfernung noch lange nicht mal bedurfte und wir noch dazu bemerken, dass der Vorfall sich an einer Stelle ereignete, welche das meiste Gefälle (also bei'm thalwärts fahren „Fallen“) der ganzen Bahnstrecke hat und der betreffende Zug von einer Locomotive gefahren wurde, welche schon seit zwei Jahren in ununterbrochener Thätigkeit gewesen ist, so wird man zugeben müssen, dass dieser Vorfall — dem übrigens schon viele ähnliche, wenn auch gerade nicht so frappante vorhergegangen sind — den Beweis geliefert hat, dass eine auf das Banquette einer Chaussee gelegte und allen Windungen und Niveau-Veränderungen derselben folgende schmalspurige Eisenbahn für den übrigen Verkehr dieser Strasse doch nicht so gefährlich ist, als es Pessimisten oder Uebelwollende gerne darstellen möchten. Dass dazu eine gute Ausführung und Unterhaltung der Bahn, sowie ein aufmerksames und gutgeschultes Personal gehört, ist selbstredend, doch ist bei Erfüllung dieser Bedingungen die Sicherheit auf solchen Strassen in der That nicht mehr gefährdet, als wenn sie von gewöhnlichem Fuhrwerk etwas stärker frequentirt würden. —""",
+      "Ein Bericht vom 29. Juli 1864, gezeichnet „Ihne“; ob der Verfasser für die Bahn sprach, sagt der Druck nicht, die Absicht ist aber offen ausgesprochen: Er will Befürchtungen „zerstreuen“, die in anderen Blättern standen. Diese Blätter, wohl die Kreiszeitungen, sind hier nicht greifbar. Dass die Lokomotive „schon seit zwei Jahren“ fuhr, widerspricht dem Bericht der Hüttengesellschaft, nach dem sie im Frühjahr 1863 kam (Dampf [2]); der Verfasser rechnet wohl großzügig. Die Szene selbst zeigt, wofür die Polizeiverordnung vier Monate später Regeln gab (Verordnung [2] und [3]): schlafende Fuhrleute, scheuende Pferde, ein Zug auf derselben Straße."),
+    u(2, "Berggeist 9 (1864), Nr. 63, 5. August", "„eine wahre Wohlthat für die Gegend“",
+      """Nebenbei sei noch bemerkt, dass seit Eröffnung der Broelthaler Eisenbahn die Kalk- und Eisenstein-Gewinnung der Gegend von Schoenenberg und Ruppichteroth einen ganz ausserordentlichen Aufschwung genommen hat, so dass bei dieser Industrie jetzt über 400 Menschen direct und continuirlich beschäftigt sind und eben dadurch die Broelbahn zu einer wahren Wohlthat für die Gegend geworden ist. Es werden gegenwärtig in der Regel täglich einige 20 Waggons (à 100 Ctr.) Kalk- und Eisenstein nach Hennef befördert, was zwar an und für sich ein recht respectables Quantum ist, jedoch gegenüber dem ganz enormen Eisenstein-Reichthum von Ruppichteroth nur sehr wenig heissen will. Allein die der Friedrich-Wilhelms-Hütte zugehörigen Gruben könnten, wenn die Aufschlüsse noch eine kurze Zeit in der bisherigen Weise fortgehen und die Bahnanschlüsse an die Haupt-Förderpuncte, nebst der neuen Eisenstein-Wäsche fertig gestellt sein werden, ein tägliches Quantum von p. p. 8—10 Waggons, die Gruben der von Director Wiepen vertretenen Gesellschaft (Consolidirte Grube Sperber etc.) aber das doppelte Quantum zur Versendung bringen. Letzteren Gruben fehlt es leider für solche grossen Quantitäten noch an genügendem Absatz und wird auch, trotz der vorzüglichen Qualität des Eisensteins, noch so lange daran fehlen, bis diese Gewerkschaft sich wird entschlossen haben, ihre schönen Eisensteine in der Nähe selber zu verhütten, wozu es früher oder später ja doch kommen muss. Wenn auf solche und ähnliche Weise die immensen Bodenschätze der Gegend von Ruppichteroth besser wie jetzt werden ausgebeutet werden, dann wird auch das so nützliche Institut der Broelbahn die Früchte seiner dargebrachten Opfer reichlicher zu geniessen haben […]""",
+      "Derselbe Bericht. Über 400 Menschen in Gruben und Kalkbrüchen, täglich gut zwanzig Wagen zu je 100 Zentnern, also rund 100 Tonnen: Das ist der Aufschwung, den die Bahn bringen sollte. Doch schon 1864 ist von Gruben die Rede, denen der „Absatz“ fehlt. Der „ganz enorme Eisenstein-Reichthum“ wird sich als viel kleiner erweisen; um 1875 ist der Bergbau nach der neueren Literatur zu Ende. Ein Zentner sind 50 Kilogramm."),
+    u(3, "ZVDEV 5 (1865), Nr. 21, S. 250", "„noch kein Unfall vorgekommen“",
+      """Nach der vorstehenden Beschreibung ist die qu. Eisenbahn mit den möglichst geringsten Geldmitteln sehr einfach gebaut und die Betriebsmittel sind gerade nur für das gegenwärtige dringende Bedürfniss angeschafft; die Haltestellen sind ausser den angeführten kleinen Gebäulichkeiten nur als Ausweichestellen mit einem Nebenstrange zum Ein- und Ausladen der Güter zu bezeichnen, und die Wasserstationen bestehen nur aus einer Handpumpe mit hölzernem Wasser-Reservoir. Aber ohnerachtet der sehr schwachen Schienen befindet sich das Bahngestänge in einem durchaus befriedigenden Zustande, was der sehr engen Lage der Schwellen und der sehr sorgfältigen Unterhaltung hauptsächlich zuzuschreiben ist.
+
+Die Curven sind zwar mit einem sehr kleinen Radius angelegt, wodurch die Bandagen der Räder mehr als gewöhnlich angegriffen werden, jedoch ist bis jetzt noch kein Unfall vorgekommen und steht auch ein solcher bei der nur langsamen Fahrt der Züge kaum zu befürchten. Die vorhandene Locomotive ist in einem guten Zustande und die Leistungsfähigkeit entspricht den gehegten Erwartungen. Bis jetzt hat dieselbe mit ganz kurzen Unterbrechungen für kleine Reparaturen den Dienst allein verrichtet; für die Zukunft wird aber diese eine Locomotive nicht ausreichen und wird die Eisenbahn-Gesellschaft baldigst auf die Beschaffung einer zweiten Locomotive Bedacht zu nehmen haben. […] Die Besorgniss der benachbarten Bevölkerung, dass eine solche Locomotivbahn Gefahren für das Zugvieh auf der daneben liegenden Chaussee herbeiführen könnte, hat sich nicht bestätigt, indem nach einem zweijährigen Betriebe noch kein Unfall vorgekommen ist und das Zugvieh sich an die Eisenbahnzüge schon ganz gewöhnt hat.""",
+      "Der Fachartikel vom Mai 1865 bestätigt den Bericht von 1864 mit nüchternen Worten. Die „Besorgniss der benachbarten Bevölkerung“ ist die einzige Stelle des Moduls, an der die Leute im Tal überhaupt vorkommen, und auch hier nur als Befürchtung, die sich „nicht bestätigt“ habe. Zwei Jahre, vom Mai 1865 zurückgerechnet, führen ins Frühjahr 1863, zum Beginn des Dampfbetriebs. Ein italienischer Ingenieurbericht von 1871 (Felice Biglia, „Sulle ferrovie economiche“) zählt dann zwei Lokomotiven und vermerkt, die erste habe den Betrieb zwei Jahre allein getragen."),
+]
+
+ERTRAG = [
+    u(1, "ZVDEV 5 (1865), Nr. 21, S. 250", "Was die Bahn kostete und was sie fuhr: das Jahr 1864",
+      """[…] Locomotive und Wagen haben eine äussere Breite von 4½', die Königliche Regierung hat jetzt aber eine Breite von 6' für zulässig erklärt.
+
+Der Bau dieser Eisenbahn nebst Beschaffung der Betriebsmittel hat rot. 136,314 Thaler gekostet, worin die erheblichen Kosten für den Bau einer neuen Siegbrücke bei Allner, welche eine besondere Fahrbahn für die Chaussee hat, enthalten sind. Obige Summe vertheilt sich auf
+1) Hauptgeleise mit 59,078 Thlr.
+2) Siegbrücke 23,375 „
+3) Zweigbahn 10,375 „
+4) Bahnhöfe und Haltestellen 21,618 „
+5) Betriebsmittel 21,868 „
+= 136,314 Thlr.
+
+Die Länge dieser Eisenbahn mit Zweigbahn beträgt nach den vorstehenden Angaben 5240 + 660 = 5900 Ruthen, oder 2,95 Meilen, mithin kostet die Meile mit den Betriebsmitteln 136,314 : 2,95 = 46,208 Thlr.
+
+Im Jahre 1864 sind überhaupt 654,176 Centner, wovon rot. 570,000 Centner, also 6/7 der ganzen Masse abwärts und 1/7 aufwärts, transportirt worden und dafür sind eingenommen 18,783 Thlr. 6 Sgr. 3 Pf.
+Die Ausgaben für den Betrieb und die Bahnunterhaltung haben pro 1864 betragen 9,642 Thlr. 23 Sgr. 9 Pf.
+bleibt Ueberschuss 9,140 Thlr. 12 Sgr. 6 Pf.
+Die Ausgaben haben also 51% der Einnahme betragen.
+
+Die abwärts beförderten Mengen bestehen aus:
+559,500 Ctr. Güter I. Frachtclasse (Eisenstein, Kalkstein);
+6,900 Ctr. II. Frachtclasse (gebrannter Kalk, Roheisen; Mauersteine);
+2,800 Ctr. III. Frachtclasse (hauptsächlich Getreide);
+946 Ctr. IV. Frachtclasse (verschiedene Artikel, Stückgüter und kleine Sendungen).
+Aufwärts wurden befördert:
+57,200 Ctr. Güter I. Classe (davon 31,600 Ctr. Kohlen);
+16,850 Ctr. II. Classe (ca. 14,500 Ctr. Kohlen, der Rest meist Ziegelsteine);
+6,700 Ctr. III. Classe (Getreide, Guano, Guss- und Schmiedeeisen);
+3,280 Ctr. IV. Classe (wie oben).""",
+      "Die einzige vollständige Jahresrechnung der frühen Bahn. Fast alles, was talabwärts fährt, sind Erz und Kalkstein, 559 500 Zentner oder knapp 28 000 Tonnen; talaufwärts kommen vor allem Kohlen, für die Kalköfen und die Haushalte. Getreide spielt kaum eine Rolle, Fahrgäste gar keine. Die Siegbrücke bei Allner allein kostete ein Sechstel des Ganzen (Verordnung [3]). Die Zahlen sind als Tabelle gesetzt; die Wiederholungszeichen sind hier ausgeschrieben, der Bruchstrich der Division als Doppelpunkt. Ein Taler hatte 30 Silbergroschen zu je 12 Pfennig."),
+    u(2, "Großindustrie Deutschlands 1 (1867), S. 335", "„einen großen Theil des Eisenerzbedarfes“",
+      """[…] Im Jahre 1861 consumirten 1000 Pfd. Roheisen 1,244 Pfd. Coaks, 848 Pfd. Kalkstein, 2,510 Pfd. Eisenstein. Es werden hauptsächlich Erze aus dem Siegenschen, aus dem Broelthale, sowie aus Gruben in der Nähe des Siebengebirges verhüttet. Die beiden Gruben Juliane und Petri im Broelthale liefern vermittelst der Broelthalbahn einen großen Theil des Eisenerzbedarfes, und dürfte die Förderung so gesteigert werden, daß entfernter liegende Gruben verkauft werden können.""",
+      "Aus einem Handbuch über die deutsche Großindustrie, im Abschnitt über die Friedrich-Wilhelms-Hütte. Für eine Tonne Roheisen brauchte die Hütte gut zweieinhalb Tonnen Erz und fast eine Tonne Kalkstein: Darum lohnte sich die Bahn für das Werk, auch wenn sie selbst kaum Gewinn abwarf (Dampf [2]). Juliane ist die Grube des Berichts von 1863 (Dampf [1])."),
+    u(3, "ZVDEV 8 (1868), S. 475", "Der Jahresbericht für 1867",
+      """Brölthaler Eisenbahn. (Jahresbericht für 1867 und Generalversammlung.) Das Transportquantum betrug 560277 Ctr. (gegen das Vorjahr 60579 Ctr. oder 12,1 % mehr), die Einnahme 17231,3 Thlr. (2089 Thlr. oder 13,8 % mehr), die Ausgabe 8646,4 Thlr. oder 50,18 % der Einnahme, mithin der Ueberschuss 8584,9 Thlr. Davon wurden 2805,4 Thlr. zu Abschreibungen verwandt, ferner 2890,75 Thlr. zu Zinsen und Provision an Creditoren, mithin betrug der Reinertrag 2888,7 Thlr. Die Generalversammlung vom 30. April 1868 hat beschlossen, diesen Gewinn nach Abzug von 226,9 Thlr. für zweifelhafte Ausstände dem Dispositionsconto zu überweisen. Das Actiencapital beträgt 98 600 Thlr. in Actien à 100 Thlr., die gesammten Anlagekosten bis jetzt gegen 150 000 Thlr.""",
+      "Ein Vergleich mit 1864 (Ertrag [1]) zeigt, was die Wachstumsmeldungen verdecken: 1867 fuhr die Bahn mit 560 277 Zentnern weniger als 1864 mit 654 176, und 1866 waren es nur knapp 500 000. Die Ausgaben bleiben bei der Hälfte der Einnahmen; nach Abschreibungen und Zinsen bleibt ein Reinertrag von knapp 2 900 Talern. Von „Actien“ ist schon vor der Aktiengesellschaft von 1869 die Rede (Aktien [1]): Die Kommanditgesellschaft hatte ihr Kapital in Anteile zu 100 Talern geteilt. Die Dezimalstelle bei 2805,4 steht am Rand der Seite und ist nur halb lesbar; die Rechnung ergibt 2805,45."),
+]
+
+VORBILD = [
+    u(1, "ZVDEV 5 (1865), Nr. 21, S. 250", "„sehr zu empfehlen“",
+      """Der Betrieb und die Bahnunterhaltung wird durch einen nur für diesen Zweck angestellten Betriebs-Inspector geleitet und verdient die Sorgfalt und Umsicht, womit er seine Functionen erfüllt, Anerkennung.
+
+Nach den oben angeführten Betriebs-Resultaten ist aus dem Jahre 1864 ein Reinertrag von 8059 Thlr. 27 Sgr. 8 Pf. erzielt, welcher die Höhe der Zinsen des Anlagecapitals erreicht.
+
+Wenn wir unser Urtheil über diese Eisenbahn und deren Betrieb zusammenfassen, so können wir uns nur dahin aussprechen, dass, so klein auch deren Verhältnisse und die ersten Anfänge des Betriebes sind, sie doch ihrem Zwecke in befriedigender Weise entsprochen hat. Jedenfalls ist anzuerkennen, dass der Betrieb und die Bahnunterhaltung nur 51% der Einnahme gekostet hat, bei einem Tarif von ca. 3 Pfg. pro Centner und Meile für Massenbeförderung der Rohmaterialien. Bei Transporten auf der Chaussee muss mehr als der dreifache Preis gezahlt werden.
+
+Die Idee, auf den Bankets der Chausseen schmalspurige Eisenbahnen anzulegen, ist bis jetzt noch wenig practisch durchgeführt; hier wird aber der Nachweis geliefert, dass eine solche Bahn mit geringen Mitteln herzustellen ist und die Transportpreise sehr mässig gehalten werden können. […]
+
+Vielfach ist dieser Broelthalbahn ein ungünstiges Prognostikon mit Rücksicht auf die Erfahrungen mit den Schlesischen schmalspurigen Eisenbahnen gestellt worden. Nach den eingezogenen Erkundigungen haben die Schlesischen Eisenbahnen aber sehr bedeutende und abwechselnde Steigungen und sollen pro Meile 270,000 Thlr. gekostet haben. Die Broelthal-Eisenbahn hat aber ein beinahe stetiges Gefälle, in welchem der grösste Theil der Güter abwärts gefahren wird, und kostet pro Meile nur 46,208 Thlr., wie vorhin nachgewiesen worden ist.
+
+Wir sind daher der Meinung, dass in solchen Fällen, wo es sich um mässige Transporte von Rohproducten handelt, die Anlage von schmalspurigen Eisenbahnen auf den Bankets von Chausseen, sobald diese die geeignete Grundlage dazu bieten, sehr zu empfehlen und der Beachtung, sowie der Beförderung Seitens der Staatsverwaltung werth ist.""",
+      "Der Schluss des Artikels vom Mai 1865 macht aus der Bahn ein Beispiel: billig gebaut, billig betrieben, ein Drittel der Fuhrkosten auf der Straße, und deshalb ein Modell, das der Staat fördern soll. Der Reinertrag von 8 059 Talern weicht vom Überschuss derselben Seite (9 140 Taler, Ertrag [1]) ab, ohne dass der Artikel den Unterschied erklärt. Die schlesischen Schmalspurbahnen sind wohl die oberschlesischen Grubenbahnen; die Bröltalbahn hat es leichter, weil die volle Last bergab fährt. Die Hüttengesellschaft dagegen sah im selben Betrieb noch keinen „directen Ertrag“ (Dampf [2])."),
+    u(2, "Zeitschrift für Bauwesen 15 (1865), Sp. 505–506", "Berlin, 9. Mai 1865: ein Vortrag über Nebenbahnen",
+      """Hr. Schwabe gab hierauf ein Resumé der von ihm verfassten Brochüre: „Ueber die Anlage secundärer Eisenbahnen in Preussen“, […]
+
+[…] Ein weiterer Vortheil kann durch die Verringerung der Planumsbreite erzielt werden, da die übliche Kronenbreite von 15 Fuss in der Höhe der Schwellenoberkante ohne besonderen Nachtheil bis auf 13 Fuss eingeschränkt werden kann. Bei der Ausführung der Erdarbeiten, Brücken und Durchlässe etc. ist natürlich Alles zu vermeiden, was nicht im Interesse der Stabilität und einer soliden Ausführung unbedingt geboten ist. Dessenungeachtet werden diese Ausgaben in den meisten Fällen einen erheblichen Theil der Bausumme bilden; es dürfte daher in Erwägung zu nehmen sein, ob nicht das Planum der bestehenden Chausseen zum Unterbau für secundäre Bahnen benutzt werden kann, um auf diese Weise die Anlagekosten auf ein Minimum zu ermässigen. Die Ausführbarkeit dieses Vorschlages ist durch die Erfahrung bei der Bröhlthaler Eisenbahn bestätigt. Allerdings wird nur unter besonders günstigen Umständen die Benutzung einer Chaussee zu diesem Zweck stattfinden können, auch nicht ganz ohne Nachtheil für den Betrieb sein, immerhin aber eine solche Ersparniss herbeiführen, dass der Vorschlag vorkommenden Falls zu beachten sein dürfte.
+
+[…] Unter Berücksichtigung der im Vorstehenden angedeuteten Gesichtspunkte werden sich die Kosten einer Meile Eisenbahn excl. Betriebsmittel auf 153000 Thlr., bei einigermaassen günstigen Terrain-Verhältnissen noch erheblich geringer stellen. Diese Summe ist jedoch immer noch so gross, dass im Allgemeinen eine Rentabilität nicht zu erwarten sein würde; es ist daher nothwendig, dass die Anlage secundärer Eisenbahnen anderweitig unterstützt wird […]""",
+      "Aus dem Protokoll des Vereins für Eisenbahnkunde zu Berlin, gedruckt in der Zeitschrift des preußischen Bauwesens. Der Redner, wohl der Eisenbahnbaumeister Hermann Schwabe, denkt an Nebenbahnen in Normalspur; von der Bröltalbahn übernimmt er nur die Idee, die Straße als Unterbau zu nutzen. Seine billigste Meile kostet 153 000 Taler ohne Fahrzeuge, die Bröltalbahn mit Fahrzeugen 46 208 (Vorbild [1]). Dass solche Bahnen „anderweitig unterstützt“ werden müssen, durch Kreise, Gemeinden und Staat, wird für die Verlängerung nach Waldbröl wahr (Aktien [2]). Das ſs der Antiqua ist als ss wiedergegeben."),
+]
+
+AKTIEN = [
+    u(1, "Berggeist 14 (1869), S. 177", "April 1869: die Aktiengesellschaft",
+      """Broelthaler Eisenbahn - Actien - Gesellschaft. Nachdem die Broelthaler Eisenbahn-Commandit-Gesellschaft in Firma Friedlieb Gustorff & Co. zu Hennef den Weiterbau der von ihr angelegten und betriebenen schmalspurigen Locomotivbahn von Hennef nach Ruppichteroth über letztern Ort hinaus nach Waldbroel, sowie die Umwandlung in eine Actien-Gesellschaft beschlossen hat, ist jetzt Bau und Betrieb dieser Bahn, sowie das am 3. Febr. 1869 notariell vollzogene Statut landesherrlich genehmigt worden. Der „Staats-Anzeiger“ vom 29. April publicirt die betreffende Concessions- und Bestätigungs-Urkunde vom 12. April.""",
+      "Die erste Quelle dieses Apparats, die den Namen der Kommanditgesellschaft nennt: Friedlieb Gustorff & Co. zu Hennef. Die neuere Literatur kennt ihn schon für 1860 (Plan [1]). Zwei Beschlüsse hängen zusammen, die Verlängerung nach Waldbröl und die Umwandlung in eine Aktiengesellschaft; der König genehmigte beides am 12. April 1869. Das Statut selbst steht im Staats-Anzeiger und ist noch nicht ausgewertet."),
+    u(2, "Berggeist 14 (1869), Nr. 88, S. 455", "Staatsprämie und Phönix",
+      """[…] Die Verwaltung hofft die Verhältnisse des Vereins auf eine günstigere Bahn bringen zu können, wenn bei intelligenter, ökonomischer Ausnutzung des Vorhandenen das Grund-Capital durch Ausgabe von Prioritäts-Stamm-Actien angemessen ergänzt wird. Die Brölthal-Bahn wird vermittelst einer Staats-Prämie von 60,000 Thlr. und einer Actien-Betheiligung der Gesellschaft Phönix von ca. 30,000 Thlr. von Ruppichteroth bis Waldbröl verlängert und davon eine steigende Rente und die successive Abtragung unseres Guthabens von ca. 53,000 Thlr. erwartet. […]""",
+      "Aus dem Bericht der Hüttengesellschaft an ihre Generalversammlung, „Köln, 25. Oct.“ 1869. Die Verlängerung bezahlen der Staat mit 60 000 Talern und die Bergwerksgesellschaft Phoenix mit rund 30 000; die Hüttengesellschaft selbst steckt in Geldnot und hofft, ihr Guthaben bei der Bahn von rund 53 000 Talern zurückzubekommen. Was Phoenix in Waldbröl suchte, sagt die Stelle nicht; wohl Erz aus dem oberen Bröltal. Die Staatsprämie ist die Unterstützung, die Schwabe 1865 gefordert hatte (Vorbild [2])."),
+    u(3, "Berggeist 15 (1870), S. 587", "November 1870: die Hütte löst sich von der Bahn",
+      """[…] Zu den einzelnen Anlagen und Branchen übergehend, haben wir zu berichten, dass die lange angestrebte selbstständige Constituirung der Brölthalbahn und deren Verlängerung nach Waldbröl durchgeführt, und rückt dadurch hoffentlich der Moment näher, das darin engagirte, relativ grosse Capital des Vereins flüssig zu machen. Durch aussergewöhnliche Schwierigkeiten beim Grunderwerb wurde zu unserem lebhaften Bedauern und Nachtheil der Bau der nördlichen Strecke der rechtsrheinischen Bahn verzögert und erst in allerjüngster Zeit aus strategischen Gründen so gefördert, dass auch die Strecke von Station Troisdorf bis Obercassel bald fahrbar hergestellt sein wird. — Die Friedrich-Wilhelms-Hütte hat daher noch mit allen Schwierigkeiten der schmalspurigen Bahn zu kämpfen gehabt und wird nun in möglichster Beschleunigung die für eine directe An- und Abfuhr der Waggons erforderlichen Geleise und Anlagen auf dem Hüttenplatze auszuführen haben. Wir hoffen, dass der noch zu erhebende Kaufschilling der schmalspurigen Bahn von 17,000 Thlr. und die uns contractlich während der Verzögerung stipulirte Entschädigung von monatlich 750 Thlr. die Kosten der neuen rationellen Anlage ziemlich compensiren werden; […]""",
+      "Der Jahresbericht vom November 1870, wenige Wochen nach der Eröffnung bis Waldbröl (nach der neueren Literatur am 6. September 1870). Für die Hüttengesellschaft ist die Bahn jetzt vor allem gebundenes Kapital, das sie „flüssig machen“ will. Die „schmalspurige Bahn“ im zweiten Teil ist nicht die Bröltalbahn, sondern wohl die eigene Pferdebahn der Hütte zur Station Troisdorf (Straße [2]): Sie lag im Weg der neuen rechtsrheinischen Strecke, wurde verkauft und durch ein normalspuriges Anschlussgleis ersetzt. Die „strategischen Gründe“ sind der Krieg gegen Frankreich."),
+]
+
+SECS = [
+    ("dampf", "Von der Pferdebahn zur Lokomotive", "Dampf", DAMPF,
+     "1863 löst eine kleine Lokomotive die Pferde ab. Der Bericht der Hüttengesellschaft, ein verspäteter Satz der Statistik und die erste genaue Beschreibung der Bahn von 1865: eine Lokomotive, 27 Wagen, 785 Millimeter Spur."),
+    ("verordnung", "Die Polizei-Verordnung von 1864", "Verordnung", VERORDNUNG,
+     "Ein Zug auf der Landstraße, zwischen Fuhrwerken und Vieh: Im November 1864 regelt die Regierung zu Köln, wie schnell er fahren darf, wer ihn begleiten muss und was die Leute auf der Straße zu tun haben. Vollständig."),
+    ("chaussee", "Auf der Chaussee", "Chaussee", CHAUSSEE,
+     "Ein Beinahe-Unfall unterhalb der Ingersauler Mühle im Juli 1864, mit einem schlafenden Fuhrmann und einem gestürzten Pferd, und was die Fachpresse daraus schloss: Die Bahn auf der Straße sei „doch nicht so gefährlich“."),
+    ("ertrag", "Fracht und Ertrag, 1864–1867", "Ertrag", ERTRAG,
+     "Was der Bau kostete, was talab und talauf fuhr, was übrig blieb: die Rechnung für 1864, die Bahn im Bedarf der Hütte und der Jahresbericht für 1867."),
+    ("vorbild", "Ein Vorbild für Preußen?", "Vorbild", VORBILD,
+     "1865 wird die Bahn zum Beispiel: Die Eisenbahn-Fachzeitung empfiehlt dem Staat Schmalspurbahnen auf den Chausseen, ein Vortrag in Berlin beruft sich auf sie."),
+    ("aktien", "Aktiengesellschaft und Waldbröl, 1869–1870", "Aktien", AKTIEN,
+     "Aus der Kommandite wird 1869 eine Aktiengesellschaft; Staat und Phoenix bezahlen die Verlängerung nach Waldbröl. Die Hüttengesellschaft, die die Bahn angestoßen hatte, will ihr Kapital zurück."),
+]
+
+DATA = {
+    "titel": "Pferd und Dampf, 1862–1870",
+    "autor": "Fachzeitschriften für Berg- und Hüttenwesen, Eisenbahn und Bauwesen, Amtsblatt und amtliche Statistik",
+    "jahr": "1863–1870",
+    "sprache": "de",
+    "orig_sprache": "de",
+    "pg_label": "",
+    "quelle": "Der Berggeist. Zeitung für Berg-, Hüttenwesen und Industrie 8 (1863), 9 (1864), 14 (1869) und 15 (1870); Vergleichende Übersicht des Standes und Ganges der preussischen Landwirthschaft 1862/63 (Berlin 1864); Amtsblatt für den Regierungsbezirk Köln 1864; Zeitung des Vereins Deutscher Eisenbahnverwaltungen 5 (1865) und 8 (1868); Zeitschrift für Bauwesen 15 (1865); Die Großindustrie Deutschlands, Bd. 1 (Leipzig 1867). Alle gelesen an den Digitalisaten der Bayerischen Staatsbibliothek (digitale-sammlungen.de).",
+    "hinweis": "Die ersten acht Jahre der Bahn: der Wechsel von den Pferden zur Lokomotive, die Polizeiverordnung für einen Zug auf der Landstraße, ein Beinahe-Unfall, die Rechnungen, das Lob der Fachpresse und die Umwandlung in eine Aktiengesellschaft mit der Verlängerung nach Waldbröl. Die Stimmen sind die der Unternehmer, der Fachleute und der Behörde; die Leute im Tal kommen nur als „Besorgniss der benachbarten Bevölkerung“ vor. Die Lokalzeitungen, in denen diese Besorgnis stand, sind aus den Vereinigten Staaten nicht zugänglich. Ein italienischer Ministerialbericht von 1871 (Felice Biglia, „Sulle ferrovie economiche“, gemeinfrei) beschreibt die Bahn ebenfalls und wird in den Anmerkungen herangezogen. Text nach den Drucken, an den Seitenbildern gelesen; Schreibung und Zeichensetzung wie gedruckt, ſ als s, ꝛc. als etc., Silbentrennung aufgelöst, Sperrungen nicht wiedergegeben, Auslassungen mit […] bezeichnet.",
+    "sections": [{"id": i, "titel": t, "zk": zk, "blurb": b, "units": us} for i, t, zk, us, b in SECS],
+}
+
+if __name__ == "__main__":
+    for s in DATA["sections"]:
+        ns = [x["n"] for x in s["units"]]
+        assert ns == list(range(1, len(ns) + 1)), (s["id"], ns)
+    OUT.write_text(json.dumps(DATA, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print("ok", OUT.name, sum(len(s["units"]) for s in DATA["sections"]), "units")

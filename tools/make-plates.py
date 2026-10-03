@@ -25,6 +25,9 @@ PLATES = {
     "karte_tal": ("commons", KARTE, 3840, (130, 0, 1000, 900)),
     "karte_broel": ("commons", KARTE, 3840, (380, 120, 800, 860)),
     "karte_huette": ("commons", KARTE, 3840, (110, 280, 420, 760)),
+    # Modul 2: Pferd und Dampf
+    "karte_allner": ("commons", KARTE, 3840, (345, 585, 550, 860)),
+    "karte_waldbroel": ("commons", KARTE, 3840, (600, 0, 1000, 410)),
 }
 
 
