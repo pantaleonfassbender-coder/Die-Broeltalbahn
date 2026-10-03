@@ -122,7 +122,7 @@ async function reader([id, secId, unitN]) {
           ${u.pg ? `<span class="pg" title="${esc(t.pg_label || "")} page.line">${esc(t.pg_label || "")} ${esc(u.pg)}</span>` : ""}</div>
         <div>${u.titel ? `<h4>${esc(u.titel)}${u.lang && langs.length > 1 ? ` <span class="fine">(${esc(LANGS[u.lang] || u.lang)})</span>` : ""}</h4>` : ""}
           <div class="cols ${showO && showE ? "" : "one"}">
-            ${showO ? `<div class="origcol"><div class="orig" lang="${esc(u.lang || t.orig_sprache)}"${t.rtl ? ' dir="rtl"' : ""}>${esc(u.orig)}</div>${u.tr ? `<div class="translit">${esc(u.tr)}</div>` : ""}</div>` : ""}
+            ${showO ? `<div class="origcol"><div class="${bilingual ? "orig" : "text"}" lang="${esc(u.lang || t.orig_sprache)}"${t.rtl ? ' dir="rtl"' : ""}>${esc(u.orig)}</div>${u.tr ? `<div class="translit">${esc(u.tr)}</div>` : ""}</div>` : ""}
             ${showE ? `<div class="text">${esc(u.en)}</div>` : ""}
           </div></div>
         ${u.note ? `<div class="note">${esc(u.note)}</div>` : ""}

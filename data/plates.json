@@ -1,5 +1,30 @@
 {
  "lede": "Karten, Ansichten und Papiere aus gemeinfreien Vorlagen.",
- "credit": "Die Tafeln stammen aus gemeinfreien oder CC0-Reproduktionen über Wikimedia Commons; jede nennt ihre Herkunft.",
- "plates": []
+ "credit": "Die Tafeln stammen aus gemeinfreien oder CC0-Reproduktionen über Wikimedia Commons; jede nennt ihre Herkunft. Für das Modul „Das Erz“: Ausschnitte der Karte des Deutschen Reiches 1:100 000 um 1900 (David Rumsey Map Collection). Die Bilder sind verkleinert oder beschnitten, sonst unverändert.",
+ "plates": [
+  {
+   "id": "karte_tal",
+   "side": "tal",
+   "titel": "Sieg und Bröl um 1900",
+   "caption": "Von der Friedrich-Wilhelms-Hütte bei Troisdorf (links) über Siegburg und Hennef an der Sieg bis Waldbröl (rechts oben): das Gebiet der Bahn auf der Karte des Deutschen Reiches 1:100 000. Die Bröl kommt von Waldbröl über Ruppichteroth und Schönenberg und mündet bei Allner in die Sieg; dort plante der „Berggeist“ 1860 die Siegbrücke der Bahn (Plan [2]).",
+   "source": "Karte des Deutschen Reiches 1:100 000, Blätter 430–431, um 1900 (R. Eisenschmidt, Berlin); David Rumsey Map Collection, gemeinfrei, via Wikimedia Commons. Ausschnitt.",
+   "cite": "#/text/erz/plan/2"
+  },
+  {
+   "id": "karte_broel",
+   "side": "tal",
+   "titel": "Von Hennef nach Ruppichteroth",
+   "caption": "Der Weg der Bahn: von Hennef und Warth (unten links), wo auf die Wagen der Staatsbahn umgeladen wurde, das Bröltal hinauf über Bröl und Winterscheid nach Schönenberg und Ruppichteroth (oben rechts); oberhalb Schönenberg Nieder- und Mittelsaurenbach, wohin 1862 die erste Zweigbahn führte (Anleihe [3]).",
+   "source": "Karte des Deutschen Reiches 1:100 000, Blätter 430–431, um 1900; David Rumsey Map Collection, gemeinfrei, via Wikimedia Commons. Ausschnitt.",
+   "cite": "#/text/erz/geld/3"
+  },
+  {
+   "id": "karte_huette",
+   "side": "gruben",
+   "titel": "Die Hütte bei Troisdorf",
+   "caption": "„Frdr. Wilh. Hütte“ zwischen Troisdorf und Siegburg an der Agger, mit der Eisenbahn von Deutz nach Gießen: das Werk, für das die Bahn ins Bröltal Kalk und Erz bringen sollte (Plan [3]), und das schon 1860 mit einer eigenen schmalen Pferdebahn an der Station Troisdorf hing (Straße [2]).",
+   "source": "Karte des Deutschen Reiches 1:100 000, Blätter 430–431, um 1900; David Rumsey Map Collection, gemeinfrei, via Wikimedia Commons. Ausschnitt.",
+   "cite": "#/text/erz/plan/3"
+  }
+ ]
 }

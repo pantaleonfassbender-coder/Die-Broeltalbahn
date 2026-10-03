@@ -4,20 +4,45 @@
   {
    "d": "1853",
    "side": "gruben",
-   "titel": "Der Große Sperber",
-   "text": "Die Grube „Großer Sperber“ bei Ruppichteroth wird verliehen, ein Tagebau auf Eisenerz; weitere Gruben liegen bei Schönenberg und Hänscheid. (Nach der neueren Literatur; Modul geplant.)"
+   "titel": "Kalköfen und eine Hütte",
+   "text": "Die preußische Gewerbestatistik zählt in der Bürgermeisterei Ruppichteroth zehn Kalkbrennereien und eine Eisenhütte; im Kreis lebt man vom Ackerbau. Die Grube „Großer Sperber“ bei Ruppichteroth wird nach der neueren Literatur 1853 verliehen.",
+   "cite": "#/text/erz/tal/1",
+   "citeLabel": "Tal [1]"
   },
   {
-   "d": "2. Juni oder 2. Juli 1860",
-   "side": "gesellschaft",
-   "titel": "Gustorff & Co.",
-   "text": "Die Actien-Commandit-Gesellschaft Friedlieb Gustorff & Co. wird gegründet, mit Emil Langen von der Friedrich-Wilhelms-Hütte in Troisdorf. Das Datum ist in den Darstellungen verschieden angegeben. (Nach der neueren Literatur; Modul geplant.)"
+   "d": "4. September 1859",
+   "side": "staat",
+   "titel": "Die Brölstraße",
+   "text": "Ein Erlass des Prinzregenten genehmigt die Gemeinde-Chaussee durch das Bröltal von Waldbröl über Ruppichteroth nach Allner und gibt den Gemeinden Enteignungsrecht und Chausseegeld. Auf dieser Straße wird die Bahn liegen.",
+   "cite": "#/text/erz/strasse/1",
+   "citeLabel": "Straße [1]"
   },
   {
-   "d": "27. Mai 1862",
+   "d": "Juni/Juli 1860",
    "side": "gesellschaft",
-   "titel": "Die Pferdebahn",
-   "text": "Von Hennef nach Ruppichteroth fährt eine Pferdebahn auf 785 Millimeter Spur, für das Erz talabwärts. (Nach der neueren Literatur; Modul geplant.)"
+   "titel": "Der Plan",
+   "text": "Der „Berggeist“ meldet am 21. Juli: Die Pferdebahn sei „eben zum Abschluss gekommen“, auf Initiative der Direktion des Sieg-Rheinischen Bergwerks- und Hütten-Actienvereins; das Unternehmen trete als Kommandite ins Leben, 75 000 Taler, auf dem Planum der neuen Chaussee. Die neuere Literatur nennt die Kommanditgesellschaft Friedlieb Gustorff & Co., gegründet am 2. Juni oder 2. Juli 1860.",
+   "cite": "#/text/erz/plan/1",
+   "citeLabel": "Plan [1]",
+   "plate": "karte_tal"
+  },
+  {
+   "d": "10. Juli 1861",
+   "side": "gruben",
+   "titel": "Die Anleihe",
+   "text": "Der Sieg-Rheinische Bergwerks- und Hütten-Actienverein leiht sich 300 000 Taler, unter anderem für den „Bau einer Eisenbahn von der Köln-Giessener Bahn bei Hennef bis nach Ruppichteroth nebst Seitenlinie“.",
+   "cite": "#/text/erz/geld/1",
+   "citeLabel": "Anleihe [1]",
+   "plate": "karte_huette"
+  },
+  {
+   "d": "Mai/Juni 1862",
+   "side": "gesellschaft",
+   "titel": "Die Pferdebahn fährt",
+   "text": "Ende Mai berichtet die Generalversammlung, der Betrieb auf dem Hauptteil der Bahn bis oberhalb Schönenberg und ins Saurenbacher Tal werde „in wenigen Tagen“ eröffnet; nach Ruppichteroth wird weitergebaut. Die neuere Literatur nennt den 27. Mai 1862 als Eröffnungstag.",
+   "cite": "#/text/erz/geld/3",
+   "citeLabel": "Anleihe [3]",
+   "plate": "karte_broel"
   },
   {
    "d": "April 1863",

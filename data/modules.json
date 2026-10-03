@@ -1,13 +1,16 @@
 {
- "shipped": [],
- "planned": [
+ "shipped": [
   {
    "id": "erz",
+   "datei": "erz",
    "side": "gruben",
+   "zk": "Tal · Straße · Plan · Anleihe",
    "kurz": "Das Erz, 1853–1862",
-   "warum": "Die Gruben um Ruppichteroth, die Hütten an Rhein und Sieg, die Gesellschaft Gustorff & Co. von 1860 und Emil Langen von der Friedrich-Wilhelms-Hütte: wer die Bahn wollte und wofür.",
-   "quelle": "Anzeiger des Siegkreises (1855–1862) und Siegburger Kreisblatt (zeitpunkt.nrw, ULB Bonn); Zeitung des Vereins Deutscher Eisenbahnverwaltungen 5 (1865)."
-  },
+   "warum": "Wie die Bahn entstand, in den Stimmen ihrer Zeit: das Bröltal in der Statistik von 1853, die Brölstraße von 1859, der Plan im „Berggeist“ von 1860 mit Kosten, Kommandite und der Bedingung der Regierung zu Köln, die Anleihe der Hüttengesellschaft 1861 und die Eröffnung im Sommer 1862. Zwölf Stellen, am Seitenbild gelesen.",
+   "quelle": "Reden 1853; Hartmann 1861; Staats-Anzeiger 1859; Der Berggeist 1860–1861; Zeitung des Vereins Deutscher Eisenbahnverwaltungen 1862; Der Aktionär 1862 (Bayerische Staatsbibliothek)."
+  }
+ ],
+ "planned": [
   {
    "id": "dampf",
    "side": "gesellschaft",

@@ -1,4 +1,70 @@
 {
  "lede": "Dieselbe Bahn in verschiedenen Stimmen: Gesellschaft, Zeitung, Behörde, Reiseführer.",
- "pairs": []
+ "pairs": [
+  {
+   "id": "wann",
+   "titel": "Wann fuhr die Bahn?",
+   "frage": "Ende 1860 bis Herbst 1862: vier Meldungen über denselben Bau.",
+   "note": "Ende 1860 ist die Straße fertig und die Bahn „noch nicht in Angriff genommen“; im April 1862 ist sie „nahezu vollendet“; im Juni soll der Betrieb auf dem Hauptteil „in wenigen Tagen“ beginnen, während nach Ruppichteroth noch gebaut wird; im Herbst ist die Eröffnung für die Hütte „von Wichtigkeit“. Die neuere Literatur nennt den 27. Mai 1862; die Meldung vom Juni spricht noch im Futur.",
+   "voices": [
+    {
+     "text": "erz",
+     "sec": "strasse",
+     "n": [
+      2
+     ]
+    },
+    {
+     "text": "erz",
+     "sec": "geld",
+     "n": [
+      2
+     ]
+    },
+    {
+     "text": "erz",
+     "sec": "geld",
+     "n": [
+      3
+     ]
+    },
+    {
+     "text": "erz",
+     "sec": "geld",
+     "n": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wer",
+   "titel": "Wessen Bahn?",
+   "frage": "Kommandite, Hüttengesellschaft oder Gemeinden: wer baute, wer zahlte, wem nützte sie?",
+   "note": "Der „Berggeist“ nennt 1860 die Hüttengesellschaft als Initiator und eine Kommandite als Träger; 1861 nimmt die Hüttengesellschaft selbst eine Anleihe für den Bau auf; 1862 heißt die Friedrich-Wilhelms-Hütte der „Haupt-Interessent“. Die Gemeinden geben das Planum ihrer Straße umsonst, dafür begrenzt die Regierung den Gewinn. Wie Kommandite und Hüttengesellschaft zusammenhingen, sagen diese Texte nicht.",
+   "voices": [
+    {
+     "text": "erz",
+     "sec": "plan",
+     "n": [
+      2
+     ]
+    },
+    {
+     "text": "erz",
+     "sec": "geld",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "erz",
+     "sec": "geld",
+     "n": [
+      3
+     ]
+    }
+   ]
+  }
+ ]
 }
