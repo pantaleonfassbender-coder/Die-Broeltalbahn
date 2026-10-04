@@ -26,16 +26,18 @@
    "kurz": "Nach dem Erz, 1870–1890",
    "warum": "Die Jahre, in denen die Bahn ihren Zweck verlor und einen neuen fand: das Erz bleibt hinter den Erwartungen, die Fracht stagniert, die Fahrgäste kommen. Im Mittelpunkt der Bericht des sächsischen Oberbaurats Sorge von 1875 mit Pferd gegen Lokomotive und den Stimmen der Anwohner; dazu Kölner Ferienkinder 1880, ein warnender Abgeordneter 1884, Börsennotizen und 1889 die Konzession nach Beuel und Asbach. Achtzehn Stellen, am Seitenbild gelesen.",
    "quelle": "Zeitschrift für Kapital und Rente 1870; Der Berggeist 1870–1880; Zeitung des Vereins Deutscher Eisenbahnverwaltungen 1875–1886 (darin C. Sorge); Annalen des Deutschen Reiches 1878; Correspondenzblatt des Niederrheinischen Vereins für öffentliche Gesundheitspflege 1880; Jahrbuch für Gesetzgebung 1880; Rheinischer Provinzial-Landtag 1884; Deutsche Industrie-Zeitung 1882–1887; Eisenbahn-Verordnungs-Blatt 1889 (Bayerische Staatsbibliothek)."
+  },
+  {
+   "id": "ausbau",
+   "datei": "ausbau",
+   "side": "gesellschaft",
+   "zk": "Rückblick · Strecken · Basalt · Fahrplan · Heisterbach · Rendite",
+   "kurz": "Der Ausbau, 1891–1903",
+   "warum": "Aus der Talbahn wird ein Netz: neue Besitzer 1885, Basalt aus dem Westerwald als neue Fracht, Strecken nach Beuel am Rhein, Asbach, Oberpleis und Siegburg, die Übernahme der Heisterbacher Talbahn. Im Mittelpunkt der Aufsatz des Regierungsbaumeisters Lauer von 1894, die erste Geschichte der Bahn, mit Fahrplan, Sonntagszügen und Viehmarktzug; dazu Börsennotizen, die Bonner Handelskammer und ein Extrazug zum Wurstessen im Kladderadatsch. Neunzehn Stellen, am Seitenbild gelesen.",
+   "quelle": "Lauer in der Zeitschrift für Kleinbahnen 1894; Zeitschrift für Kleinbahnen 1899 und 1901; Uhland's Verkehrszeitung 1891–1895; Landeseisenbahnrat 1893; Kladderadatsch 1892; Handelskammer Bonn 1895–1896; Der Aktionär 1896; Jahrbuch der Berliner Börse 1897/98; Bayerisches Börsen- und Handelsblatt 1898 (Bayerische Staatsbibliothek; Internet Archive)."
   }
  ],
  "planned": [
-  {
-   "id": "ausbau",
-   "side": "gesellschaft",
-   "kurz": "Der Ausbau, 1891–1903",
-   "warum": "Hennef–Beuel 1891, Asbach 1892, Siegburg 1899, die Heisterbacher Talbahn 1903: aus der Erzbahn wird ein Netz von 87 Kilometern, und Basalt aus den Steinbrüchen ersetzt das Erz.",
-   "quelle": "Hennefer Zeitung (zeitpunkt.nrw); Zeitschrift für Kleinbahnen (Internet Archive, Wikisource-Übersicht); Deutscher Reichsanzeiger."
-  },
   {
    "id": "sommerfrische",
    "side": "nachwelt",

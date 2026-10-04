@@ -274,6 +274,100 @@
      ]
     }
    ]
+  },
+  {
+   "id": "beuel",
+   "titel": "Wann fuhr der erste Zug nach Beuel?",
+   "frage": "Drei Angaben aus den 1890er Jahren für dieselbe Strecke.",
+   "note": "Im Sommer 1891 ist die Werft in Beuel fertig und Asbach soll im August folgen; Lauer schreibt 1894, Beuel sei im Dezember 1890 eröffnet worden; das Jahrbuch der Berliner Börse nennt den 20. Dezember 1891. Die neuere Literatur folgt mit dem 1. Dezember 1891 der späteren Angabe. Auch zeitnahe Fachaufsätze irren also in Daten; der Apparat stellt die Stimmen nebeneinander und entscheidet nicht.",
+   "voices": [
+    {
+     "text": "ausbau",
+     "sec": "strecken",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "ausbau",
+     "sec": "strecken",
+     "n": [
+      2
+     ]
+    },
+    {
+     "text": "ausbau",
+     "sec": "strecken",
+     "n": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "neue_fracht",
+   "titel": "Vom Erz zum Basalt",
+   "frage": "Was die Bahn trug: 1864, 1881 und in den 1890er Jahren.",
+   "note": "1864 fuhr fast alles talab, Erz und Kalk; 1881 fuhr mehr talauf, Kohle und Dünger für die Bauern; in den 1890er Jahren trägt der Basalt aus dem Westerwald die Bahn, über eine Werft in Beuel bis Holland, und mit ihm kommt der Streit um Tarife mit der Konkurrenz von der Lahn. Zweimal wurde die Bahn für Gestein gebaut, das erste Mal vergeblich.",
+   "voices": [
+    {
+     "text": "ausbau",
+     "sec": "rueckblick",
+     "n": [
+      2
+     ]
+    },
+    {
+     "text": "ausbau",
+     "sec": "strecken",
+     "n": [
+      2
+     ]
+    },
+    {
+     "text": "ausbau",
+     "sec": "basalt",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "ausbau",
+     "sec": "basalt",
+     "n": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ausflug",
+   "titel": "Ausflügler oder Bauern?",
+   "frage": "Für wen fuhren die Personenzüge um 1894?",
+   "note": "Die Fachpresse wirbt 1891 mit den „Naturschönheiten“ für den „grossen Touristenverkehr“; Lauer nennt das untere Bröltal „nur den Touristen anziehend“ und den Wochentagsverkehr schwach; der Fahrplan hat Sonntagszüge für Ausflügler und einen Viehzug für den Markt in Waldbröl. Die Bahn fährt für beide, an verschiedenen Tagen.",
+   "voices": [
+    {
+     "text": "ausbau",
+     "sec": "strecken",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "ausbau",
+     "sec": "fahrplan",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "ausbau",
+     "sec": "fahrplan",
+     "n": [
+      2
+     ]
+    }
+   ]
   }
  ]
 }

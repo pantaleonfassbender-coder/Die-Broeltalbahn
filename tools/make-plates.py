@@ -30,6 +30,8 @@ PLATES = {
     "karte_waldbroel": ("commons", KARTE, 3840, (600, 0, 1000, 410)),
     # Modul 3: Nach dem Erz
     "karte_mitte": ("commons", KARTE, 3840, (455, 215, 725, 690)),
+    # Modul 4: Der Ausbau
+    "heisterbach_dollendorf": ("commons", "File:Niederdollendorf Bahnhof Heisterbacher Talbahn ca. 1910.jpg", 2400, None),
 }
 
 

@@ -132,9 +132,9 @@
    "d": "1885",
    "side": "gesellschaft",
    "titel": "Die Banken",
-   "text": "Das Bankhaus Sal. Oppenheim und die Disconto-Gesellschaft übernehmen die Gesellschaft (nach der neueren Literatur; in den Digitalisaten bisher nicht belegt). Die Börsenblätter melden bis 1885 Abschreibungen statt Dividenden, 1887 fünf Prozent.",
-   "cite": "#/text/krise/bilanz/1",
-   "citeLabel": "Bilanz [1]"
+   "text": "„Im Jahre 1885 ging das Eigenthum der Bahn in andere Hände über“, schreibt Lauer 1894, ohne Namen; die neuere Literatur nennt das Bankhaus Sal. Oppenheim und die Disconto-Gesellschaft. Betriebsleiter Saling wird Direktor und plant das Netz für den Basalt. Die Börsenblätter melden bis 1885 Abschreibungen statt Dividenden, 1887 fünf Prozent.",
+   "cite": "#/text/ausbau/strecken/2",
+   "citeLabel": "Strecken [2]"
   },
   {
    "d": "27. Oktober 1889",
@@ -145,16 +145,37 @@
    "citeLabel": "Bilanz [2]"
   },
   {
-   "d": "1891–1892",
+   "d": "1890–1892",
    "side": "gesellschaft",
    "titel": "Nach Beuel und Asbach",
-   "text": "Hennef–Beuel (1. Dezember 1891), Buchholz und Asbach (1892): Die Bahn erreicht den Rhein gegenüber Bonn. (Nach der neueren Literatur; Modul geplant.)"
+   "text": "Die Strecke Hennef–Beuel wird eröffnet, nach Lauer im Dezember 1890, nach dem Jahrbuch der Berliner Börse am 20. Dezember 1891 (die neuere Literatur: 1. Dezember 1891); Hennef–Buchholz im Januar, Buchholz–Asbach im Juni 1892. In Beuel entsteht eine Werft für den Basalt aus dem Westerwald.",
+   "cite": "#/text/ausbau/strecken/2",
+   "citeLabel": "Strecken [2]"
+  },
+  {
+   "d": "Mai 1893",
+   "side": "gesellschaft",
+   "titel": "Oberpleis und der Fahrplan",
+   "text": "Die Zweigbahn nach Oberpleis wird eröffnet, 1894 für Quarzit bis Herresbach verlängert. Der Fahrplan von 1894 kennt sechs Züge täglich zwischen Beuel und Hennef, Sonntagszüge für Ausflügler und einen Viehzug zum Waldbröler Markt.",
+   "cite": "#/text/ausbau/fahrplan/2",
+   "citeLabel": "Fahrplan [2]"
+  },
+  {
+   "d": "3. Oktober 1895",
+   "side": "gesellschaft",
+   "titel": "Heisterbach",
+   "text": "Die Bröltaler Gesellschaft übernimmt den Betrieb der verschuldeten Heisterbacher Talbahn von Niederdollendorf ins Siebengebirge.",
+   "cite": "#/text/ausbau/heisterbach/2",
+   "citeLabel": "Heisterbach [2]"
   },
   {
    "d": "1899–1903",
    "side": "gesellschaft",
    "titel": "Das Netz",
-   "text": "Niederpleis–Siegburg (1899), Herresbach–Rostingen (1902), die Heisterbacher Talbahn (1903): bis zu 87 Kilometer. Basalt aus den Steinbrüchen wird die wichtigste Fracht. (Nach der neueren Literatur; Modul geplant.)"
+   "text": "Niederpleis–Siegburg (1. Mai 1899), Herresbach–Rostingen (1902, nach der neueren Literatur); die Heisterbacher Talbahn wird seit 1895 von der Gesellschaft betrieben, 1901 darf sie sie erwerben, 1903 geht sie ganz in ihr auf. Das Netz misst 87 Kilometer.",
+   "cite": "#/text/ausbau/strecken/5",
+   "citeLabel": "Strecken [5]",
+   "plate": "heisterbach_dollendorf"
   },
   {
    "d": "1905",
