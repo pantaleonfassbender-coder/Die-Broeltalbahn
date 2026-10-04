@@ -1,5 +1,7 @@
 # Die Bröltalbahn. Erz, Dampf und Sommerfrische 1862–1914
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23129576.svg)](https://doi.org/10.5281/zenodo.23129576)
+
 Live: https://die-broeltalbahn.netlify.app/
 
 Ein Quellenapparat zur Bröltalbahn, der Schmalspurbahn (785 mm) von Hennef an der Sieg ins Bröltal, ab 1921 Rhein-Sieg-Eisenbahn: wie eine Bahn für das Erz gebaut wurde, das Erz verlor und einen neuen Zweck fand. Gemeinfreie Zeitungen, Fachzeitschriften, Bilanzen und Reiseführer von 1855 bis 1914, in der Schreibung der Drucke, mit Anmerkungen, eine Zeitleiste mit Verweisen in die Texte und eine Liste dessen, was geprüft und nicht aufgenommen wurde. Das 20. Jahrhundert bis zur Stilllegung 1967 steht als Ausblick nach der neueren Literatur.
@@ -18,7 +20,7 @@ Die Lokalzeitungen des Siegkreises (zeitpunkt.nrw) sind aus den Vereinigten Staa
 
 ## Zitieren
 
-Fassbender, Pantaleon. *Die Bröltalbahn. Erz, Dampf und Sommerfrische 1862–1914. Ein Quellenapparat.* 2026. Live: https://die-broeltalbahn.netlify.app/ (DOI folgt nach der Veröffentlichung bei Zenodo). Bitte zitieren Sie für jede wörtlich übernommene Stelle auch die gedruckte Quelle. Metadaten: `CITATION.cff`, `.zenodo.json`.
+Fassbender, Pantaleon. *Die Bröltalbahn. Erz, Dampf und Sommerfrische 1862–1914. Ein Quellenapparat.* 2026. https://doi.org/10.5281/zenodo.23129576 (alle Versionen; Version 1.0.0: https://doi.org/10.5281/zenodo.23129577). Bitte zitieren Sie für jede wörtlich übernommene Stelle auch die gedruckte Quelle. Metadaten: `CITATION.cff`, `.zenodo.json`.
 
 ## Prüfen
 
