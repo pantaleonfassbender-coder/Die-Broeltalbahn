@@ -28,6 +28,6 @@ Fassbender, Pantaleon. *Die Bröltalbahn. Erz, Dampf und Sommerfrische 1862–19
 python tools/verify.py
 ```
 
-Das Begleitspiel *Mit Volldampf ins Bröltal* ist in Vorbereitung: https://mit-volldampf-ins-broeltal.netlify.app/
+Das Begleitspiel *Mit Volldampf ins Bröltal* ist als Prototyp spielbar: https://mit-volldampf-ins-broeltal.netlify.app/ · auf itch.io: https://leofassb.itch.io/mit-volldampf-ins-broeltal
 
 Code MIT; Editionen CC0; redaktionelle Texte CC BY 4.0 (siehe `LICENSES.md`).
