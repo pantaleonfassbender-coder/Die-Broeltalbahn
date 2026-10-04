@@ -1,0 +1,35 @@
+{
+  "upload_type": "dataset",
+  "title": "Die Bröltalbahn. Erz, Dampf und Sommerfrische 1862–1914. Ein Quellenapparat",
+  "creators": [
+    {
+      "name": "Fassbender, Pantaleon",
+      "orcid": "0000-0002-6683-3617"
+    }
+  ],
+  "description": "<p>Ein digitaler Quellenapparat zur Bröltalbahn, die als älteste öffentliche Schmalspurbahn Deutschlands gilt (785 mm), von Hennef an der Sieg ins Bröltal, ab 1921 Rhein-Sieg-Eisenbahn. These, an den Texten zu prüfen: Gebaut für das Erz, geblieben für das Tal. Die Bahn entstand 1860–1862 für Eisenerz und Kalk der Friedrich-Wilhelms-Hütte, lag auf dem Bankett einer Landstraße, fuhr ab 1863 mit Dampf, verlor um 1875 ihr Erz und lebte weiter von der Landwirtschaft, von Fahrgästen und ab 1890 vom Basalt des Westerwalds; bis 1903 wuchs sie zu einem Netz von 87 Kilometern zwischen Beuel am Rhein, Waldbröl und Asbach.</p><p>Stufe 1: fünf Module mit 79 Stellen. <em>Das Erz, 1853–1862</em> (Reden 1853, Hartmann 1861, Erlass 1859, Der Berggeist 1860–1861, Eisenbahn-Fachzeitung und Aktionär 1862); <em>Pferd und Dampf, 1862–1870</em> (Der Berggeist 1863–1870, die Polizeiverordnung der Regierung zu Köln vom 16. November 1864, ein Beinahe-Unfall 1864, Betriebsrechnungen 1864 und 1867, Zeitschrift für Bauwesen 1865); <em>Nach dem Erz, 1870–1890</em> (der Bericht des sächsischen Oberbaurats C. Sorge 1875, Kölner Ferienkinder 1880, Provinzial-Landtag 1884, Börsennotizen, Konzession 1889); <em>Der Ausbau, 1891–1903</em> (Lauer in der Zeitschrift für Kleinbahnen 1894, Fahrplan, Basalt, die Heisterbacher Talbahn, Handelskammer Bonn); <em>Kleinbahn und Sommerfrische, 1903–1914</em> (Baedeker 1905 und 1911, Naturschutz im Siebengebirge 1900, Statistik 1906/07 mit einer halben Million Fahrgästen, Kapitalschnitt 1906).</p><p>Jede Stelle ist am Seitenbild eines gemeinfreien Drucks gelesen (Bayerische Staatsbibliothek, Internet Archive), in der Schreibung des Drucks. Die Anmerkungen trennen, was die Quellen sagen, von dem, was nur die neuere Literatur weiß, und benennen Widersprüche (Eröffnung 1862, Beginn des Dampfbetriebs, Eröffnung nach Beuel 1890 oder 1891, Besitzwechsel 1885). Mit Zeitleiste (27 Stationen, Ausblick bis zur Stilllegung 1967), 14 Vergleichen, 9 gemeinfreien Bildtafeln und einer Liste der geprüften und nicht aufgenommenen Quellen. Begleitspiel: <em>Mit Volldampf ins Bröltal</em>.</p><p><em>English:</em> A German-language source apparatus on the Bröltalbahn (Bröl Valley Railway), regarded as Germany's oldest public narrow-gauge railway (785 mm), built 1860–1862 on the verge of a country road from Hennef on the Sieg for iron ore and limestone, steam-worked from 1863, outliving its ore around 1875 and growing into an 87 km network carrying farm goods, basalt and day-trippers by 1903. Five modules, 79 passages from public-domain prints 1853–1911, each read against page images; timeline, 14 paired readings, 9 public-domain plates, and a list of sources examined and not included.</p><p>Lizenzen: Code MIT; redaktionelle Texte CC BY 4.0; Editionen gemeinfreier Texte CC0 1.0 &mdash; siehe LICENSES.md. Live: https://die-broeltalbahn.netlify.app/</p>",
+  "license": "MIT",
+  "language": "deu",
+  "keywords": [
+    "Bröltalbahn",
+    "Brölthaler Eisenbahn",
+    "Rhein-Sieg-Eisenbahn",
+    "Schmalspurbahn",
+    "narrow-gauge railway",
+    "Kleinbahn",
+    "Industrialisierung",
+    "Rheinprovinz",
+    "Siegkreis",
+    "Hennef",
+    "Eisenbahngeschichte",
+    "Quellenedition",
+    "Digital Humanities"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://die-broeltalbahn.netlify.app/",
+      "relation": "isSupplementedBy",
+      "resource_type": "other"
+    }
+  ]
+}

@@ -178,16 +178,44 @@
    "plate": "heisterbach_dollendorf"
   },
   {
+   "d": "1900",
+   "side": "staat",
+   "titel": "Grenzen am Siebengebirge",
+   "text": "Der Staat genehmigt den Kauf der Heisterbacher Talbahn nur ohne neue Steinbruchanschlüsse und ohne Verbindung zum Bröltaler Netz, „im Interesse der Erhaltung des Siebengebirges“. Die Dividende fällt auf 2½ Prozent.",
+   "cite": "#/text/sommerfrische/siebengebirge/1",
+   "citeLabel": "Siebengebirge [1]",
+   "plate": "siegburg_1912"
+  },
+  {
    "d": "1905",
    "side": "nachwelt",
    "titel": "Im Baedeker",
-   "text": "Der Baedeker nennt Hennef den „Knotenpunkt für die Bröltalbahn“ und das Bröltal eine Sommerfrische. (Modul geplant.)"
+   "text": "Der Baedeker nennt Hennef den „Knotenpunkt für die Bröltalbahn“ und das Bröltal eine „Fülle landschaftlicher Schönheiten“, mit einer „beliebten Sommerfrische“ an der Felderhoferbrücke. Vom Erz ist keine Rede mehr.",
+   "cite": "#/text/sommerfrische/baedeker/2",
+   "citeLabel": "Baedeker [2]"
+  },
+  {
+   "d": "1906",
+   "side": "gesellschaft",
+   "titel": "Kapitalschnitt und halbe Million",
+   "text": "Die alten Stammaktien werden im Verhältnis 5 : 3 zusammengelegt. 1907 fahren 502 491 Menschen und 552 571 Tonnen Güter auf 87 Kilometern; 1908 gibt es vier Prozent Dividende auf alle Aktien.",
+   "cite": "#/text/sommerfrische/statistik/2",
+   "citeLabel": "Statistik [2]"
+  },
+  {
+   "d": "1911",
+   "side": "nachwelt",
+   "titel": "„Very picturesque“",
+   "text": "Der englische Baedeker empfiehlt das Bröltal und die Basaltbrüche am Bennauer Kopf. Waldbröl hat inzwischen auch eine Staatsbahn nach Wissen.",
+   "cite": "#/text/sommerfrische/baedeker/3",
+   "citeLabel": "Baedeker [3]"
   },
   {
    "d": "1921",
    "side": "gesellschaft",
    "titel": "Rhein-Sieg-Eisenbahn",
-   "text": "Die Gesellschaft heißt nun Rhein-Sieg-Eisenbahn-AG. (Ausblick nach der neueren Literatur.)"
+   "text": "Die Gesellschaft heißt nun Rhein-Sieg-Eisenbahn-AG. (Ausblick nach der neueren Literatur.)",
+   "plate": "aktie_1922"
   },
   {
    "d": "1956 und 1967",

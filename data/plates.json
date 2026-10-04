@@ -1,6 +1,6 @@
 {
  "lede": "Karten, Ansichten und Papiere aus gemeinfreien Vorlagen.",
- "credit": "Die Tafeln stammen aus gemeinfreien oder CC0-Reproduktionen über Wikimedia Commons; jede nennt ihre Herkunft. Für die Module 1 bis 3: Ausschnitte der Karte des Deutschen Reiches 1:100 000 um 1900 (David Rumsey Map Collection); für Modul 4 eine Fotografie um 1910. Die Bilder sind verkleinert oder beschnitten, sonst unverändert.",
+ "credit": "Die Tafeln stammen aus gemeinfreien oder CC0-Reproduktionen über Wikimedia Commons; jede nennt ihre Herkunft. Für die Module 1 bis 3: Ausschnitte der Karte des Deutschen Reiches 1:100 000 um 1900 (David Rumsey Map Collection); für die Module 4 und 5 Fotografien um 1910 und 1912 und eine Aktie von 1922. Die Bilder sind verkleinert oder beschnitten, sonst unverändert.",
  "plates": [
   {
    "id": "karte_tal",
@@ -57,6 +57,22 @@
    "caption": "Das Personal vor den offenen Personenwagen der Heisterbacher Talbahn am Rhein bei Niederdollendorf; im Hintergrund das Sturzgerüst, über das Steine aus dem Siebengebirge in die Wagen der Staatsbahn geschüttet wurden, wie in Hennef (Betrieb [1]). Seit 1895 führte die Bröltaler Gesellschaft den Betrieb (Heisterbach [2]).",
    "source": "Unbekannter Fotograf, um 1910; gemeinfrei, via Wikimedia Commons (Datei „Niederdollendorf Bahnhof Heisterbacher Talbahn ca. 1910.jpg“). Verkleinert.",
    "cite": "#/text/ausbau/heisterbach/2"
+  },
+  {
+   "id": "siegburg_1912",
+   "side": "gesellschaft",
+   "titel": "Vor Siegburg, um 1912",
+   "caption": "Links das schmale Gleis der Bröltalbahn, rechts die elektrische Siegburger Bahn mit ihrer Oberleitung; im Hintergrund der Michaelsberg über Siegburg. Seit 1899 fuhr die Bröltalbahn von Niederpleis in die Kreisstadt (Strecken [5]), 1900 kam der Haltepunkt Siegburg-Siegbrücke hinzu (Siebengebirge [2]).",
+   "source": "Elektrische Kraftbetriebe und Bahnen 1912, Heft 28, S. 584; unbekannter Fotograf; gemeinfrei, via Wikimedia Commons (Datei „Siegburg Siegburger Bahn 1912.jpg“).",
+   "cite": "#/text/sommerfrische/siebengebirge/2"
+  },
+  {
+   "id": "aktie_1922",
+   "side": "nachwelt",
+   "titel": "Aktie der Rhein-Sieg Eisenbahn, 1922",
+   "caption": "Ausgegeben am 22. November 1922, mitten in der Inflation, unter dem neuen Namen der Gesellschaft seit 1921. Die Bröltaler Eisenbahn-Actien-Gesellschaft von 1869 (Aktien [1]) hieß nun Rhein-Sieg-Eisenbahn; ihre Bahn fuhr noch bis 1967.",
+   "source": "Unbekannte Gestalter, 1922; Scan des EDHAC e.V.; gemeinfrei, via Wikimedia Commons (Datei „Rhein-Sieg Eisenbahn-AG 1922.jpg“). Verkleinert.",
+   "cite": "#/text/sommerfrische/dividende/5"
   }
  ]
 }

@@ -368,6 +368,107 @@
      ]
     }
    ]
+  },
+  {
+   "id": "tal_bild",
+   "titel": "Was ist das Bröltal?",
+   "frage": "Dasselbe Tal in vier Blicken, von 1853 bis 1911.",
+   "note": "1853 ein Bauernland mit Kalköfen und einer Hütte; 1875 „weder bevölkert, noch industrielle Ortschafften“; 1894 „nur den Touristen anziehend“; 1905 eine „Fülle landschaftlicher Schönheiten“ mit Sommerfrische. Das Tal hat sich weniger verändert als der Blick darauf, und die Bahn hat beides bewirkt.",
+   "voices": [
+    {
+     "text": "erz",
+     "sec": "tal",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "krise",
+     "sec": "gruben",
+     "n": [
+      3
+     ]
+    },
+    {
+     "text": "ausbau",
+     "sec": "fahrplan",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "sommerfrische",
+     "sec": "baedeker",
+     "n": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rendite_lang",
+   "titel": "Hat sich die Bahn gelohnt?",
+   "frage": "Ertrag über fünfzig Jahre: 1865, 1894, 1901, 1908.",
+   "note": "1865 verdient der Überschuss die Zinsen des kleinen Anlagekapitals; 1894 sind es fünf Prozent; 1901 noch 4,54 Prozent, besser als der Durchschnitt; 1906 müssen die alten Aktionäre zwei Fünftel abschreiben, danach gibt es vier Prozent. Für das Tal hat sie sich gelohnt, für die Anleger mäßig.",
+   "voices": [
+    {
+     "text": "dampf",
+     "sec": "vorbild",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "ausbau",
+     "sec": "strecken",
+     "n": [
+      2
+     ]
+    },
+    {
+     "text": "sommerfrische",
+     "sec": "statistik",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "sommerfrische",
+     "sec": "dividende",
+     "n": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "steine",
+   "titel": "Steine gegen Landschaft",
+   "frage": "Basalt bringt Geld, das Siebengebirge soll bleiben.",
+   "note": "1891 freut sich die Fachpresse auf Basalt bis Holland; 1894 bewundert Lauer die Säulenwände am Bennauer Kopf; 1900 verbietet der Staat neue Steinbruchanschlüsse im Siebengebirge. Die Bahn lebte vom Abbau und warb mit der Landschaft.",
+   "voices": [
+    {
+     "text": "ausbau",
+     "sec": "strecken",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "ausbau",
+     "sec": "basalt",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "sommerfrische",
+     "sec": "siebengebirge",
+     "n": [
+      1
+     ]
+    }
+   ]
   }
  ]
 }

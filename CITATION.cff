@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "Die Bröltalbahn. Erz, Dampf und Sommerfrische 1862–1914. Ein Quellenapparat"
+message: "Wenn Sie diesen Apparat benutzen, zitieren Sie ihn bitte wie unten angegeben, und zitieren Sie für jede übernommene Stelle auch die gedruckte Quelle. / If you use this apparatus, please cite it as below, and cite the printed source for any passage you quote."
+type: software
+authors:
+  - family-names: Fassbender
+    given-names: Pantaleon
+    orcid: "https://orcid.org/0000-0002-6683-3617"
+repository-code: "https://github.com/pantaleonfassbender-coder/Die-Broeltalbahn"
+url: "https://die-broeltalbahn.netlify.app/"
+abstract: >-
+  Ein digitaler Quellenapparat zur Bröltalbahn, der Schmalspurbahn (785 mm)
+  von Hennef an der Sieg ins Bröltal, ab 1921 Rhein-Sieg-Eisenbahn: fünf
+  Module mit 79 Stellen aus gemeinfreien Drucken 1853–1911 (amtliche
+  Statistik, Der Berggeist, Polizeiverordnung 1864, Fachzeitschriften des
+  Eisenbahnwesens, C. Sorge 1875, Lauer 1894, Börsenblätter, Baedeker), jede
+  am Seitenbild gelesen, mit Anmerkungen, Zeitleiste, 14 Vergleichen,
+  9 gemeinfreien Tafeln und einer Liste der geprüften und nicht
+  aufgenommenen Quellen. These: Gebaut für das Erz, geblieben für das Tal.
+  Begleitspiel: Mit Volldampf ins Bröltal.
+keywords:
+  - Bröltalbahn
+  - Rhein-Sieg-Eisenbahn
+  - Schmalspurbahn
+  - Kleinbahn
+  - Industrialisierung
+  - Rheinprovinz
+  - Hennef
+  - digital humanities
+license: MIT
+version: 1.0.0
+date-released: 2026-10-03

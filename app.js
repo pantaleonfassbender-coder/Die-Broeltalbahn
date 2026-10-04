@@ -79,7 +79,7 @@ function card(m) {
 function texts() {
   view.innerHTML = `
     <span class="tag">Texte</span><h1>Das Korpus</h1>
-    <p class="lede">Jedes Modul ist vollständig lesbar, in der Schreibung der Drucke. Geplante Module nennen ihre Quellen; was geprüft und nicht aufgenommen wurde, steht unten mit Begründung.</p>
+    <p class="lede">Jedes Modul ist vollständig lesbar, in der Schreibung der Drucke. ${(D.mods.planned || []).length ? "Geplante Module nennen ihre Quellen; was" : "Was"} geprüft und nicht aufgenommen wurde, steht unten mit Begründung.</p>
     ${D.mods.shipped.length ? `<h2>Abgedruckt</h2><div class="grid g2">${D.mods.shipped.map(card).join("")}</div>` : ""}
     ${(D.mods.planned || []).length ? `<h2>Geplant</h2><div class="grid g2">${D.mods.planned.map(m => `
       <div class="card planned"><div>${side(m.side)} <span class="fine">geplant</span></div>

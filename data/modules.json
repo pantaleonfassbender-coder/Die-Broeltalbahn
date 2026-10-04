@@ -35,17 +35,18 @@
    "kurz": "Der Ausbau, 1891–1903",
    "warum": "Aus der Talbahn wird ein Netz: neue Besitzer 1885, Basalt aus dem Westerwald als neue Fracht, Strecken nach Beuel am Rhein, Asbach, Oberpleis und Siegburg, die Übernahme der Heisterbacher Talbahn. Im Mittelpunkt der Aufsatz des Regierungsbaumeisters Lauer von 1894, die erste Geschichte der Bahn, mit Fahrplan, Sonntagszügen und Viehmarktzug; dazu Börsennotizen, die Bonner Handelskammer und ein Extrazug zum Wurstessen im Kladderadatsch. Neunzehn Stellen, am Seitenbild gelesen.",
    "quelle": "Lauer in der Zeitschrift für Kleinbahnen 1894; Zeitschrift für Kleinbahnen 1899 und 1901; Uhland's Verkehrszeitung 1891–1895; Landeseisenbahnrat 1893; Kladderadatsch 1892; Handelskammer Bonn 1895–1896; Der Aktionär 1896; Jahrbuch der Berliner Börse 1897/98; Bayerisches Börsen- und Handelsblatt 1898 (Bayerische Staatsbibliothek; Internet Archive)."
-  }
- ],
- "planned": [
+  },
   {
    "id": "sommerfrische",
+   "datei": "sommerfrische",
    "side": "nachwelt",
+   "zk": "Baedeker · Siebengebirge · Statistik · Dividende",
    "kurz": "Kleinbahn und Sommerfrische, 1903–1914",
-   "warum": "Fahrpläne, Ausflügler, Bilanzen, Statistik: die Bahn im Alltag des Tals und im Baedeker, mit einem Ausblick auf die Rhein-Sieg-Eisenbahn und die Stilllegung bis 1967.",
-   "quelle": "K. Baedeker, Die Rheinlande (Leipzig 1905) (Internet Archive); Statistik der im Betriebe befindlichen Eisenbahnen Deutschlands; Deutscher Reichsanzeiger 1912."
+   "warum": "Die Bahn vor dem Ersten Weltkrieg: im Baedeker der Weg in eine „beliebte Sommerfrische“, im Siebengebirge an Grenzen des Naturschutzes, in der Statistik mit einer halben Million Fahrgästen im Jahr, an der Börse mit Kapitalschnitt und vier Prozent. Zwölf Stellen, am Seitenbild gelesen; Ausblick bis 1967 in der Zeitleiste.",
+   "quelle": "Baedeker 1905 und 1911; Zeitschrift für Kleinbahnen 1903 und 1908; Zeitung des Vereins Deutscher Eisenbahnverwaltungen 1900; Der Arbeiterfreund 1901; Allgemeine Zeitung und Münchner Neueste Nachrichten 1900–1908 (Internet Archive; Bayerische Staatsbibliothek)."
   }
  ],
+ "planned": [],
  "missing": [
   {
    "id": "archiv",
@@ -60,6 +61,34 @@
    "kurz": "Die neuere Literatur zur Bahn",
    "warum": "Die Darstellungen von 1988 und 2017 sind die gründlichsten Geschichten der Bahn, aber urheberrechtlich geschützt. Der Apparat nennt sie, wo er ihnen Daten entnimmt, und druckt nichts daraus ab.",
    "quelle": "Becker (1988); Clößner/Gussmann (2017)."
+  },
+  {
+   "id": "lokal",
+   "side": "tal",
+   "kurz": "Die Lokalzeitungen des Siegkreises",
+   "warum": "Siegburger Kreisblatt, Anzeiger des Siegkreises, Hennefer Zeitung: Dort stünden die Stimmen der Anwohner, die Fahrpläne und die Anzeigen der Gasthäuser. Die Portale zeitpunkt.nrw und die Digitalen Sammlungen der ULB Bonn sind aus den Vereinigten Staaten nicht erreichbar; das Deutsche Zeitungsportal verlangt eine Bot-Prüfung, die dieser Apparat nicht umgeht. Die Lücke ist in den Modulen 2, 3 und 5 benannt.",
+   "quelle": "zeitpunkt.nrw; ULB Bonn; Deutsches Zeitungsportal."
+  },
+  {
+   "id": "brohltal",
+   "side": "nachwelt",
+   "kurz": "Treffer zum Brohltal bei Andernach",
+   "warum": "„Bröhlthal“ heißt in vielen Drucken auch das Brohltal am Laacher See mit der eigenen Brohltalbahn. Ein Reisehandbuch von 1853, ein Studentenbericht von 1900 und Tuffstein-Meldungen gehören dorthin und sind nicht aufgenommen; jede Stelle wurde an Orten wie Hennef, Ruppichteroth oder Waldbröl geprüft.",
+   "quelle": "Treffer der Volltextsuche der Bayerischen Staatsbibliothek."
+  },
+  {
+   "id": "biglia",
+   "side": "nachwelt",
+   "kurz": "Felice Biglia, Sulle ferrovie economiche (1871)",
+   "warum": "Ein italienischer Ministerialbericht mit genauer Beschreibung der Bahn, Löhnen und Tonnagen; in den Anmerkungen zu Modul 2 herangezogen. Seine Abbildungen von Lokomotive, Wagen und Umladebahnhof Hennef sind im Google-Scan leer geblieben und deshalb nicht als Tafeln verwendbar.",
+   "quelle": "Internet Archive / Wikimedia Commons (gemeinfrei)."
+  },
+  {
+   "id": "mdzbilder",
+   "side": "nachwelt",
+   "kurz": "Seitenbilder der Bayerischen Staatsbibliothek als Tafeln",
+   "warum": "Die Digitalisate stehen unter der Nutzungsangabe „No Copyright – Non-Commercial Use Only“. Der Apparat liest an ihnen, zeigt sie aber nicht; die Tafeln kommen aus gemeinfreien Reproduktionen über Wikimedia Commons.",
+   "quelle": "digitale-sammlungen.de."
   }
  ]
 }
