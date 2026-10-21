@@ -57,7 +57,7 @@ Um an der Flusskante zu bleiben, wechselt die Bahn zweimal das Chausseebanquett.
 
 Zwischen Fahrgleis und Bahn sind ähnlich, wie bei Pferdebahnen, weder Gräben noch besondere Absperrungen vorhanden, obgleich dieselben als wünschenswerth anerkannt werden müssen.
 
-Barrièren sind nur 3—4 Mal und zwar an solchen Wegübergängen und innerhalb der Ortschaften an solchen Stellen angebracht, wo die Bahn ganz dicht an den Gebäuden vorüber geht und der Zug erst bei seinem Eintreffen gesehen werden kann.
+Barrièren sind nur 3—4 Mal und zwar an solchen Wegübergängen und innerhalb der Ortschaften an solchen Stellen angebracht, wo die Bahn ganz dicht an den Gebäuden vorüber geht und der Zug erst bei senem Eintreffen gesehen werden kann.
 
 * Aus C. Sorge, Oberbaurath a/D., ein weiteres Wort zu Gunsten der Secundärbahnen (Als Manuscript gedruckt). Dresden.""",
       "Die Eisenbahn-Fachzeitung druckt am 3. September 1875 einen Auszug aus einer Werbeschrift des sächsischen Oberbaurats a. D. C. Sorge für Nebenbahnen. Sorge war selbst auf der Bahn (Betrieb [3]). Die Hauptbahn liegt weiter auf der Straße; nur das neue Stück nach Waldbröl hat einen eigenen Bahnkörper. „Wörth“ ist wohl der alte Endpunkt bei Ruppichteroth. Dass dieses Stück „erst vor 2 Jahren“ fertig wurde, passt nicht zur Eröffnung 1870 nach der neueren Literatur; entweder schrieb Sorge um 1872, oder der letzte Abschnitt wurde später fertig. Elf Haltestellen gibt es 1875, sieben waren es 1865 (Dampf [4])."),
@@ -75,7 +75,7 @@ Das Unternehmen der Brölthaler Eisenbahn ist, unter thätiger Mitwirkung der du
     u(3, SORGE + "–755", "„Täuschungen in der Ergiebigkeit der Erze“",
       """Von Haus aus waren es montane Interessen, welche die Bahn in's Leben riefen. Allein in Folge von Geschäftsstockungen, Täuschungen in der Ergiebigkeit der Erze etc. hat sich dieser Transportzweig nicht entwickelt und sich in der Hauptsache auf Kalksteine, gebrannten Kalk, Mauersteine, Kohlen, namentlich aber auf landwirthschaftliche Producte und Erzeugnisse beschränkt und ist demnach die Transportmasse eine viel geringere geworden, als ursprünglich angenommen wurde.
 
-[…] Obgleich das Thal weder bevölkert, noch industrielle Ortschafften oder auch nur einzelne dergleichen Etablissements besitzt, ist der Verkehr daselbst doch immer so gross, dass das Unternehmen, auch ohne den ursprünglich beabsichtigten Zweck erreicht zu haben, doch Dank der Einfachheit des Baues und Betriebes nicht nur bestehen, sondern auch noch einen kleinen Gewinn abwerfen kann, der mit jedem Jahre wächst.""",
+[…] Obgleich das Thal weder bevölkert, noch industrielle Ortschaftten oder auch nur einzelne dergleichen Etablissements besitzt, ist der Verkehr daselbst doch noch immer so gross, dass das Unternehmen, auch ohne den ursprünglich beabsichtigten Zweck erreicht zu haben, doch Dank der Einfachheit des Baues und Betriebes nicht nur bestehen, sondern auch noch einen kleinen Gewinn abwerfen kann, der mit jedem Jahre wächst.""",
       "Die Kernstelle des Moduls und die These des ganzen Apparats in den Worten eines Zeitgenossen: Die Bahn wurde für das Erz gebaut, das Erz hielt nicht, was es versprach, und die Bahn lebte trotzdem weiter, von Kalk, Kohle und Landwirtschaft. „Montane Interessen“ heißt Bergbau. Die Frachtmenge, die Sorge aus dem letzten Jahresbericht nennt (Fahrgäste [1]), liegt allerdings sogar etwas über der von 1864 (Ertrag [1]); „viel geringer“ ist sie gemessen an den Hoffnungen von 1860, nicht an den ersten Jahren."),
     u(4, "Berggeist 25 (1880), S. 105", "1880: die Grube der Phoenix, vier Jahre still",
       """Phönix, Act.-Ges. für Bergbau und Hüttenbetrieb in Laar bei Ruhrort. Das der Ges. gehörige Eisenstein-Bergwerk im Bröhlthal, dessen Betrieb vor 4 Jahren eingestellt wurde, ist jetzt wieder in Betrieb gesetzt worden.""",
@@ -88,13 +88,13 @@ BETRIEB = [
 
 Die Steigungen sind anfangs günstig, gestalten sich aber nach dem Ende der Bahn zu immer stärker. Sie beginnen mit dem Verhältniss 1 : 350, endigen bei Wörth mit 1 : 80 und nehmen auf dem neuen Tracte bei Waldbröl auf 1 : 57 zu.
 
-Die Geleise der Bahn haben 0,785 m Spurweite. Die Schienen hatten früher ein Gewicht von 11,145 k pr. lfd. m. Jetzt ist dafür ein Gewicht von 17,595 k pr. lfd. m. angenommen.
+Die Geleise der Bahn haben 0,785 m Spurweite. Die Schienen hatten früher ein Gewicht von 11,145 k pr. lfd. m. Jetzt ist dafür ein Gewicht von 17595 k pr. lfd. m. angenommen.
 
 An Gebäuden besitzt die Bahn nur in Hennef einen Güterschuppen, einen Wagenschuppen, ein Maschinen- mit Wasserhaus und eine Werkstatt, sowie in Waldbröl einen Gütterschuppen, sämmtlich nur von Fachwerk und in der allereinfachsten Weise errichtet. Auf der Strecke giebt es einige Wasserstationen der primitivsten Art, welche nur noch eine Stube für einen Tagelöhner enthalten.
 
 Erst in neuerer Zeit ist in Hennef ein massives Gebäude für pp. 21 000 M errichtet, welches im Parterre die Betriebsexpedition und in der ersten Etage die Wohnung des Inspectors enthält.
 
-Ferner ist zur raschen und bequemen, selbstthätigen Umladung der Brölthalbahnwagen auf diejenigen der Köln-Mindener Bahn und umgekehrt ein Zu- und Abfuhrstrang auf einer geneigten Ebene angelegt, welche auf ein hölzernes Gerüst ausläuft. Dieses ist mit Trichtern versehen, vermittelst deren die nach Oeffnung der Seitenklappen der Wagen ausstürzenden Eisensteine, Kalksteine etc. in die darunter gestellten Köln-Mindener Wagen gelangen. […]""",
+Ferner ist zur raschen und bequemen, selbstmitthätigen Umladung der Brölthalbahnwagen auf diejenigen der Köln-Mindener Bahn und umgekehrt ein Zu- und Abfuhrstrang auf einer geneigten Ebene angelegt, welche auf ein hölzernes Gerüst ausläuft. Dieses ist mit Trichtern versehen, vermittelst deren die nach Oeffnung der Seitenklappen der Wagen ausstürzenden Eisensteine, Kalksteine etc. in die darunter gestellten Köln-Mindener Wagen gelangen. […]""",
       "Sorge rechnet schon in Metern und Mark; die Mark galt seit 1873/76. Die Schienen sind schwerer geworden als die sieben Pfund je Fuß von 1865 (Dampf [4]). In Hennef wird Erz und Kalk über ein Holzgerüst mit Trichtern unmittelbar in die Wagen der Staatsbahn geschüttet; die Deutz-Gießener Bahn wurde von der Köln-Mindener Gesellschaft betrieben. „Gütterschuppen“ steht so im Druck."),
     u(2, SORGE, "Pferd gegen Lokomotive",
       """In der ersten Zeit des Betriebes benutzte man Pferde als Zugkraft und es berechnete sich bei der dadurch bedingten geringen Geschwindigkeit und Transportfähigkeit der Centner mit 37,5 Pf. Nach Einführung von Locomotiven und in Folge der dadurch erreichten grösseren Geschwindigkeit und Transportfähigkeit stellen sich die Kosten bis auf 18,1 und 20 Pf.
@@ -105,7 +105,7 @@ Auf den Steigungen 1 : 57 sind dieselben nie verwendet worden.
 
 Eine Locomotive dagegen kann, wie weiter unten angegeben werden wird, noch mehr (2400 Ctr. Brutto) mit doppelter Geschwindigkeit auf der ganzen Linie fördern. Die Locomotiven arbeiten mit einem Dampfüberdruck von 6 Atmosphären, sind Tender-Maschinen, haben Cylinder mit 250 mm Durchmesser und 30 mm Hub und laufen auf 6 gekuppelten Rädern, deren vorderes und hinderes Paar mit solchen Vorrichtungen versehen sind, dass sie sich in Curven seitlich verschieben können. Sie haben einen Radstand von 2,5 m, wiegen mit ganzer Wasser- und Kohlenfüllung 252 Ctr. und kosten 18 000 M.
 
-In steigender Richtung bewegt eine Locomotive 2000—2400 Ctr. Brutto mit einer durchschnittlichen Geschwindigkeit von 1 Stunde pro Meile. In umgekehrter Richtung beträgt die Leistung das Doppelte.
+In steigender Richtung bewegt eine Locomotive 2000—2400 Ctr. Brutto mit einer durschnittlichen Geschwindigkeit von 1 Stunde pro Meile. In umgekehrter Richtung beträgt die Leistung das Doppelte.
 
 Die Bahn besitzt drei Locomotiven.
 
@@ -134,7 +134,7 @@ Nicht unerwähnt darf es gelassen werden, dass zu der Harmonie, welche zwischen 
 
 FAHRGAESTE = [
     u(1, SORGE2, "4 253 Fahrgäste in einem Jahr",
-      """Schon in nächster Zeit wird die Betriebsverwaltung sich genöthigt sehen, noch einen Zug einzuschieben, um dem jetzt sehr vernachlässigten jedoch sich hebenden Personenverkehr mehr als bisher Rechnung zu tragen. […]
+      """Schon in nächster Zeit wird die Betriebsverwaltung sich genöthigt sehen, noch einen Zug einzuschiebeu, um dem jetzt sehr vernachlässigten jedoch sich hebenden Personenverkehr mehr als bisher Rechnung zu tragen. […]
 
 Nachstehende, dem letzten Jahresberichte der genannten Bahn entnommene Zahlen documentiren gleichfalls, dass dieselbe, wenn schon auf der niedrigsten Stufe des Eisenbahnwesens stehend, und trotz des ausserordentlich geringen Transportes, dennoch lebensfähig ist.
 
@@ -143,7 +143,7 @@ Nach diesem Berichte sind 379 Reisen im ganzen Jahr gemacht und in selbigem 4253
 Dafür sind eingenommen worden:
 73 557 M 83 Pf. für Frachten und Nebengebühren,
 335 M 40 Pf. für Lagermiethe
-1 693 M 6 Pf. für Personenbeförderung
+1 693 M 6 Pf. für Personerbeförderung
 75 586 M 29 Pf.
 
 Die Betriebsausgaben betrugen dagegen:
@@ -242,7 +242,7 @@ DATA = {
     "orig_sprache": "de",
     "pg_label": "",
     "quelle": "Zeitschrift für Kapital und Rente 6 (1870); Der Berggeist 15 (1870), 18 (1873) und 25 (1880); Zeitung des Vereins Deutscher Eisenbahnverwaltungen 15 (1875; Auszug aus C. Sorge, Ein weiteres Wort zu Gunsten der Secundärbahnen), 18 (1878) und 26 (1886); Annalen des Deutschen Reiches 1878; Correspondenzblatt des Niederrheinischen Vereins für öffentliche Gesundheitspflege 9 (1880); Jahrbuch für Gesetzgebung, Verwaltung und Volkswirtschaft 4 (1880); Verhandlungen des 30. Rheinischen Provinzial-Landtages (1884); Deutsche Industrie-Zeitung 1882–1887; Eisenbahn-Verordnungs-Blatt 12 (1889). Alle gelesen an den Digitalisaten der Bayerischen Staatsbibliothek (digitale-sammlungen.de).",
-    "hinweis": "Die Jahre, in denen die Bahn ihren Zweck verlor und einen neuen fand: Das Erz blieb hinter den Erwartungen zurück, die Fracht stagnierte bei rund 650 000 Zentnern, und die Fahrgäste kamen, von gut 4 000 um 1875 auf 20 000 um 1880. Die Hauptquelle ist der Bericht des sächsischen Oberbaurats C. Sorge von 1875, ein Plädoyer für Nebenbahnen, das zugleich die genaueste Beschreibung der Bahn dieser Jahre ist. Die Übernahme durch Banken um 1885, die die neuere Literatur nennt, ließ sich in den Digitalisaten nicht belegen. Text nach den Drucken, an den Seitenbildern gelesen; Schreibung und Zeichensetzung wie gedruckt, ſ als s, ℳ als M, ₰ als Pf., Silbentrennung aufgelöst, Sperrungen nicht wiedergegeben, Auslassungen mit […] bezeichnet.",
+    "hinweis": "Die Jahre, in denen die Bahn ihren Zweck verlor und einen neuen fand: Das Erz blieb hinter den Erwartungen zurück, die Fracht stagnierte bei rund 650 000 Zentnern, und die Fahrgäste kamen, von gut 4 000 um 1875 auf 20 000 um 1880. Die Hauptquelle ist der Bericht des sächsischen Oberbaurats C. Sorge von 1875, ein Plädoyer für Nebenbahnen, das zugleich die genaueste Beschreibung der Bahn dieser Jahre ist. Die Übernahme durch Banken um 1885, die die neuere Literatur nennt, ließ sich in den Digitalisaten nicht belegen. Text nach den Drucken, an den Seitenbildern gelesen; Schreibung und Zeichensetzung wie gedruckt, auch offensichtliche Satzfehler (2026-10-20 am Seitenbild nachgeprüft), ſ als s, ℳ als M, ₰ als Pf., Silbentrennung aufgelöst, Sperrungen nicht wiedergegeben, Auslassungen mit […] bezeichnet.",
     "sections": [{"id": i, "titel": t, "zk": zk, "blurb": b, "units": us} for i, t, zk, us, b in SECS],
 }
 
